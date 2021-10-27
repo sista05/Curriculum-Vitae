@@ -54,11 +54,10 @@
 - [自己紹介](#自己紹介)
 - [スキル](#スキル)
 - [直近で関わった開発案件](#直近で関わった開発案件)
+    - [営業情報管理支援サイトの構築](#営業情報管理支援サイトの構築)
     - [ログ収集基盤設計と構築](#ログ収集基盤設計と構築)
-    - [データ処理基盤設計と構築](#データ処理基盤設計と構築)
-    - [データ分析とレポーティング](#データ分析とレポーティング)
-    - [機械学習基盤の精度改善](#機械学習基盤の精度改善)
 - [過去に関わった開発案件](#過去に関わった開発案件)
+    - [リーガルテック企業の分析基盤構築](#リーガルテック企業の分析基盤構築)
     - [大手美容サイト](#大手美容サイト)
     - [旅行代理店の新規顧客管理システム](#旅行代理店の新規顧客管理システム)
     - [モビリティ事業](#モビリティ事業)
@@ -70,19 +69,46 @@
 主に携わってきた業務は分析基盤構築、データ処理バッチジョブ作成、データ解析業務等。
 SIer時代に培った耐障害設計、低レイヤや障害対応まで幅広く視野に入れた設計を得意とする。
 
+直近では、データ分析から分析基盤構築までデータを広く扱う会社を設立。
+Salesforce、Marketo、PardotなどのCRMツールからデータを統合しKPI指標作成やCVR、LTV向上施策、
+マーケティング施策、データ活用支援などに注力している。
+
 ## スキル
 
 項目|詳細|
 :--:|--
-Programing Language| 長く使用してきた言語はC。得意はPython。その他、Goではfluentbitのモジュールの開発や速度性能を要求されるあアプリ等の開発、RubyはRailsでのアプリ開発などで使用。<br>Go / Ruby / Python / Perl / PHP / C / C++
-BI Tool | 商用からオープンソースまで利用経験あり。BIツールは用途に沿った利用が肝という考えです。<br>Looker / Tableau / Google Analytics / Data Portal / Metabase / Re:dash
-Data Systems | 分散処理システムとして大規模から中小規模のデータまで以下を利用した経験があり。<br> Amazon EMR ( Hadoop / Spark ) / Cloud Dataflow
+Programing Language| 長く使用してきた言語はC。得意はPython。その他、Goではfluentbitのモジュールの開発や速度性能を要求されるあアプリ等の開発、RubyはRailsでのアプリ開発などで使用。<br>Go / Ruby / Python / Perl / PHP / TypeScript / C / C++
+BI Tool | 商用からオープンソースまで利用経験あり。BIツールは用途に沿った利用が肝という考えです。<br>Looker / Tableau / Google Analytics / Data Studio / Metabase / Re:dash
+Data Systems | 分散処理システムとして大規模から中小規模のデータまで以下を利用した経験があり。<br> Amazon EMR ( Hadoop / Spark ) / Cloud Dataflow / Treasure Data / Fivetran
 Job Management | 大容量処理やワークフロー中心の処理、日々のcron程度の処理などで使い分けた選定ができます。<br>Digdag / Cloud Composer / AWS Batch / Rundeck
+DataWareHouse | DWHのメインステージとなっているサービスは一通り扱ってきました。<br>Snowflake / BigQuery / RedShift / Treasure Data
 CI/CD| 基本的に構築してきた環境はほとんど自動化、コード化してきました。<br>Terraform / Cloud Formations / Circle CI / Github Actions / Jenkins / Ansible
 AWS | インフラ構築におけるおよそ一般的なサービスは一通り経験済。<br>VPC / S3 / Cloud Front / API Gateway / Lambda / ALB / ELB / EC2 / ECS / Fargate / Route53 / IAM / Cognito / Elasticsearch Service / RDS ( MySQL / PostgreSQL ) / Aurora / DynamoDB / ElastiCache (Redis) / Kinesis / Kinesis firehose / SageMaker / SQS / SNS / SES / Redshift / Redshift Spectrum / Amazon EMR ( Hadoop / Spark ) / Cloud Formation / Cloud Watch / AWS Batch / KMS / VPC Peering
 GCP | インフラ構築におけるおよそ一般的なサービスは一通り経験済。<br>GCE / GAE / GKE(Kubernetes) / Cloud SQL / GCS / Dataflow / BigQuery / Datastore / Cloud Composer / FireStore / AI Platform / Cloud Pub/Sub / Cloud Functions / Cloud CDN / Cloud IAP / Cloud KMS / Cloud NAT / Cloud Build / Stackdriver Logging / Stackdriver Monitoring
 
-## 直近で関わった開発案件
+## 直近で関わった/現在継続中の開発案件
+
+### 営業情報管理支援サイトの構築
+
+期間: 2021年7月 - 継続中(業務委託)
+
+Salesforce、Marketo、HeartCoreなどのCRMツールや、Google Analyticsなどのデータを集計し、
+コールリストなどをWebアプリとして管理する営業支援システムを構築中。
+データパイプラインにはFivetran、データ変換にはdbt、データウェアハウスにはSnowflakeを用いて構成の自動化、簡略化を図っています。
+また、作業管理ツールの選定から、チャットツールの運用、社内のセキュリティにおける助言やコンサルティングなど
+システム全般に関するアドバイスや提案も行っております。
+ドキュメントや開発環境の整備なども並行して進めており、保守や運用が考慮されたシステムを目指しています。
+
+### 大規模視聴データの移行支援
+
+期間: 2021年7月 - 2021年11月(業務委託)
+
+運用費削減のため、TreasureDataからBigQuery/Digdag構成へデータとジョブワークフローをマイグレーションするプロジェクトを支援しました。
+支援にあたり、TreasureDataのTD関数とBigQueryの互換性調査や対応、移行モジュールやワークフローの作成、テスト項目の作成などに従事しました。
+
+## 過去に関わった開発案件
+
+### リーガルテック企業の分析基盤構築
 
 期間: 2020年4月 - 2021年6月(業務委託)
 
@@ -90,7 +116,7 @@ GCP | インフラ構築におけるおよそ一般的なサービスは一通�
 基盤設計/開発/スケジュール調整/ドキュメント作成、平時の運用や障害対応まで幅広く対応した。
 また、パラメータ抽出/顧客データ解析/レポート作成や、機械学習基盤の整備と精度評価指標の提案、等 広くデータ分析業務に従事した。
 
-### ログ収集基盤設計と構築
+#### ログ収集基盤設計と構築
 
 ログパラメータが300を超える複雑構成のウェブアプリログを、Fluentdログ収集基盤を大きく刷新することでログ解析可能にした。
 また、基盤をフルマネージド化することで構成を簡略化、スケーリングを容易にした。
@@ -102,7 +128,7 @@ GCP | インフラ構築におけるおよそ一般的なサービスは一通�
 - Cloud DLP(Data Loss Prevention)による秘匿情報のマスキング
 - Cloud Monitoringおよび拡張機能による基盤環境監視とアラート通知実装
 
-### データ処理基盤設計と構築
+#### データ処理基盤設計と構築
 
 データのバッチ処理に関わる組織のガバナンス/リソース管理/セキュリティを考慮しつつ、データ処理基盤を再設計、再構築した。
 これにより従来のバッチサーバ構成よりも著しく耐障害性/スケーラビリティを向上し、またセキュリティに配慮してデータを取り扱う環境を整備した。
@@ -113,7 +139,7 @@ GCP | インフラ構築におけるおよそ一般的なサービスは一通�
 - CircleCIによDockerImageによる自動デプロイ、タグ設計によるバージョン管理でデグレ防止を考えた運用
 - github actionsを利用したPull Requestの自動化
 
-### データ分析とレポーティング
+#### データ分析とレポーティング
 
 アプリ利用データの解析/アドホック分析/日々のレポーティングや、Salesforce/MarketoなどCRM、MAツールの顧客データ分析を担当した。
 また、部署間のデータを連携しデータ利用を促進することを進言。DX文化の浸透に貢献した。
@@ -124,7 +150,7 @@ GCP | インフラ構築におけるおよそ一般的なサービスは一通�
 - データソースに構築されたLookerダッシュボードやレポートのパフォーマンスチューニング
 - CRM、MAツールなどで顧客セグメントに活用するためのデータ連携の設計、開発
 
-### 機械学習基盤の精度改善
+#### 機械学習基盤の精度改善
 
 契約書の自動レビュー(条文検索/比較/マッチング/構文解析/画像解析 等)を実現する機械学習基盤の、特に予測精度改善に貢献。
 機械学習における継続的デリバリー/自動化のモニタリング/自動化プロセスを向上させた。
@@ -134,8 +160,6 @@ GCP | インフラ構築におけるおよそ一般的なサービスは一通�
 - Human In The Loop(HITL:学習に人手を介在させることで継続的に精度向上や維持をするフィードバックループ)の仕組みの導入
 - ビジネス要件の理解と分析、予測モデルの構築、実験の設計、仮説の検証、統計結果
 - RCT/DIDなどの基礎的な効果検証実験
-
-## 過去に関わった開発案件
 
 ### 大手美容サイト
 
