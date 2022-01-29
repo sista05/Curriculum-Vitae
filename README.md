@@ -24,6 +24,10 @@
             <td align="center">Nagoya University</td>
         </tr>
         <tr>
+            <td align="center">Company</td>
+            <td align="center"><a href="https://datamarket.co.jp">株式会社DataMarket</td>
+        </tr>
+        <tr>
             <td align="center">Qualification</td>
             <td align="center">情報セキュリティスペシャリスト<br>基本情報処理技術者 等</td>
         </tr>
@@ -37,15 +41,21 @@
         </tr>
         <tr>
             <td align="center">Twitter</td>
-            <td align="center"> <a href="https://twitter.com/sista05"> https://twitter.com/sista05</td>
+            <td align="center"> <a href="https://twitter.com/sista05"> 代表のtwitter
+            <br><a href="https://twitter.com/d8amkt"> DataMarket公式twitter
+            </td>
         </tr>
         <tr>
             <td align="center">Qiita</td>
             <td align="center"> <a href="https://qiita.com/sista05"> https://qiita.com/sista05</td>
         </tr>
         <tr>
+            <td align="center">Zenn</td>
+            <td align="center"> <a href="https://zenn.dev/datamarket"> https://zenn.dev/datamarket</td>
+        </tr>
+        <tr>
             <td align="center">LinkedIn</td>
-            <td align="center"><a href="https://www.linkedin.com/in/akira-iwasaki-674592160/"> https://www.linkedin.com/in/akira-iwasaki-674592160/</td>
+            <td align="center"><a href="https://www.linkedin.com/in/datamarket"> https://www.linkedin.com/in/datamarket</td>
         </tr>    
     </tbody>
 </table>
@@ -69,42 +79,70 @@
 主に携わってきた業務は分析基盤構築、データ処理バッチジョブ作成、データ解析業務等。
 SIer時代に培った耐障害設計、低レイヤや障害対応まで幅広く視野に入れた設計を得意とする。
 
-直近では、データ分析から分析基盤構築までデータを広く扱う会社を設立。
-Salesforce、Marketo、PardotなどのCRMツールからデータを統合しKPI指標作成やCVR、LTV向上施策、
-マーケティング施策、データ活用支援などに注力している。
+直近ではデータ分析から分析基盤構築までデータを広く扱う会社を設立。
+特にデータを活かした事業戦略支援や、分析データを元にELTを構築しKPI・KGIなどの指標管理を提供する方向に注力している。
 
 ## スキル
 
 項目|詳細|
 :--:|--
 Programing Language| 長く使用してきた言語はC。得意はPython。その他、Goではfluentbitのモジュールの開発や速度性能を要求されるあアプリ等の開発、RubyはRailsでのアプリ開発などで使用。<br>Go / Ruby / Python / Perl / PHP / TypeScript / C / C++
-BI Tool | 商用からオープンソースまで利用経験あり。BIツールは用途に沿った利用が肝という考えです。<br>Looker / Tableau / Google Analytics / Data Studio / Metabase / Re:dash
+BI Tool・ダッシュボード | 商用からオープンソースまで利用経験あり。BIツールは用途に沿った利用が。<br>Looker / Tableau / Data Studio / Metabase / Re:dash
+顧客獲得管理ツール| データ活用に利用したことのあるMA・SFA・CRM<br> Salesforce / Marketo / Google Analytics / HeartCore
 Data Systems | 分散処理システムとして大規模から中小規模のデータまで以下を利用した経験があり。<br> Amazon EMR ( Hadoop / Spark ) / Cloud Dataflow / Treasure Data / Fivetran
-Job Management | 大容量処理やワークフロー中心の処理、日々のcron程度の処理などで使い分けた選定ができます。<br>Digdag / Cloud Composer / AWS Batch / Rundeck
+Job Management | 大容量処理やワークフロー中心の処理、日々のcron程度の処理などで使い分けた選定ができます。<br>dbt / Digdag / Cloud Composer / AWS Batch / Rundeck
 DataWareHouse | DWHのメインステージとなっているサービスは一通り扱ってきました。<br>Snowflake / BigQuery / RedShift / Treasure Data
 CI/CD| 基本的に構築してきた環境はほとんど自動化、コード化してきました。<br>Terraform / Cloud Formations / Circle CI / Github Actions / Jenkins / Ansible
 AWS | インフラ構築におけるおよそ一般的なサービスは一通り経験済。<br>VPC / S3 / Cloud Front / API Gateway / Lambda / ALB / ELB / EC2 / ECS / Fargate / Route53 / IAM / Cognito / Elasticsearch Service / RDS ( MySQL / PostgreSQL ) / Aurora / DynamoDB / ElastiCache (Redis) / Kinesis / Kinesis firehose / SageMaker / SQS / SNS / SES / Redshift / Redshift Spectrum / Amazon EMR ( Hadoop / Spark ) / Cloud Formation / Cloud Watch / AWS Batch / KMS / VPC Peering
 GCP | インフラ構築におけるおよそ一般的なサービスは一通り経験済。<br>GCE / GAE / GKE(Kubernetes) / Cloud SQL / GCS / Dataflow / BigQuery / Datastore / Cloud Composer / FireStore / AI Platform / Cloud Pub/Sub / Cloud Functions / Cloud CDN / Cloud IAP / Cloud KMS / Cloud NAT / Cloud Build / Stackdriver Logging / Stackdriver Monitoring
 
-## 直近で関わった/現在継続中の開発案件
+## 現在継続中の開発案件
 
-### 営業情報管理支援サイトの構築
+### 顧客獲得プロセス可視化サイト・ELT構築
 
 期間: 2021年7月 - 継続中(業務委託)
 
-Salesforce、Marketo、HeartCoreなどのCRMツールや、Google Analyticsなどのデータを集計し、
-コールリストなどをWebアプリとして管理する営業支援システムを構築中。
-データパイプラインにはFivetran、データ変換にはdbt、データウェアハウスにはSnowflakeを用いて構成の自動化、簡略化を図っています。
-また、作業管理ツールの選定から、チャットツールの運用、社内のセキュリティにおける助言やコンサルティングなど
-システム全般に関するアドバイスや提案も行っております。
-ドキュメントや開発環境の整備なども並行して進めており、保守や運用が考慮されたシステムを目指しています。
+リサーチ・マーケティング専門会社において、顧客獲得プロセス全体を可視化するためのインフラ構築・CI/CD・ELT・データマート構築の設計・開発を全面的に担当。
+プロダクトマネージャとして製品知識の提供や他社比較分析、および開発環境全般におけるルール策定やドキュメント整備も担当した。
+
+#### 開発環境の整備全般
+
+アジャイル開発を取り入れたプロジェクト管理や、Github導入などDevOps開発手法を採り入れた。
+
+ - プロジェクト・ドキュメント管理にJira・Confluenceを採用、チャットツールやGithubなどモダン開発ツールを採用
+ - git runnerによるCI/CDや、TerraformによるInfrastructure as Codeで構成管理と継続的デリバリーを提供
+ - dbt Cloud、Fivetranや、Snowflakeといった最新のクラウドサービスのデータパイプラインの導入と構築
+
+#### 新製品のPdM・コンサルタント
+
+データ分析用BIプロダクトのサービス仕様や設計、運用などの製品コンサルタント業務を担当。
+また、プロダクトマネージャとして製品知識の提供や他社比較分析などについて貢献した。
+
+ - データの可視化、ダッシュボード仕様、データ構造や顧客ドキュメントの形式などの提案
+ - BIツールやデータ連携ツールなどの競合分析や、カスタマーサクセス・マーケティング分野に対するドメイン知識を提供
+ - ツールの料金設計や製品のスケールなど、運用についても考慮したツール選定をした
+
+#### 顧客獲得プロセス可視化ソリューション開発
+
+CRM・MA・Web解析ツールなどのデータを統合してマーケティングに必要な顧客獲得プロセスのKPI・KGI指標を可視化した。
+データのELTパイプラインを構築し、また、利便性向上のためダッシュボードより細かい操作に耐えるReactで指標を可視化した。
+
+ - SalesforceやMarketoのようなCRM、MAツール、Google Analyticsのような解析ツールなどを統合し、カスタムソリューションを開発・展開した
+ - ウェビナーやサービスサイト、広告に対するKPIや、リード・CV数・エンゲージメントなどのレポートなどBtoBマーケティングに必要なKPIの要件定義や設計を担当
+ - ELT構築にあたり、スケールや利便性を考慮し、頒布にも耐えられるよう環境構築をした。
+
+## 直近で関わった開発案件
 
 ### 大規模視聴データの移行支援
 
 期間: 2021年7月 - 2021年11月(業務委託)
 
-運用費削減のため、TreasureDataからBigQuery/Digdag構成へデータとジョブワークフローをマイグレーションするプロジェクトを支援しました。
-支援にあたり、TreasureDataのTD関数とBigQueryの互換性調査や対応、移行モジュールやワークフローの作成、テスト項目の作成などに従事しました。
+運用費削減のため、Treasure DataからBigQuery/Digdag構成へデータとジョブワークフローをマイグレーションするプロジェクトを支援した。
+支援にあたり、Treasure DataのTD関数とBigQueryの互換性調査や対応、移行モジュールやワークフローの作成、テスト項目の作成などに従事した。
+
+- Treasure DataのワークフローをDigdagに移植した。移植にあたりHadoopとBigQueryの処理の違いなどにも留意した
+- コスト削減のための最適な処理の置き換えや、Treasure DataとDigdagの差異を埋めるための汎用モジュールなども構築した
+- テストケース作成や異常時の通知設計、移植後のデータ整合性確認などのチェックなどの詳細の確認も行った
 
 ## 過去に関わった開発案件
 
