@@ -86,13 +86,13 @@ SIer時代に培った耐障害設計、低レイヤや障害対応まで幅広�
 
 項目|詳細|
 :--:|--
-Programing Language| 長く使用してきた言語はC。得意はPython。その他、Goではfluentbitのモジュールの開発や速度性能を要求されるあアプリ等の開発、RubyはRailsでのアプリ開発などで使用。<br>Go / Ruby / Python / Perl / PHP / TypeScript / C / C++
-BI Tool・ダッシュボード | 商用からオープンソースまで利用経験あり。BIツールは用途に沿った利用が。<br>Looker / Tableau / Data Studio / Metabase / Re:dash
-顧客獲得管理ツール| データ活用に利用したことのあるMA・SFA・CRM<br> Salesforce / Marketo / Google Analytics / HeartCore
-Data Systems | 分散処理システムとして大規模から中小規模のデータまで以下を利用した経験があり。<br> Amazon EMR ( Hadoop / Spark ) / Cloud Dataflow / Treasure Data / Fivetran
-Job Management | 大容量処理やワークフロー中心の処理、日々のcron程度の処理などで使い分けた選定ができます。<br>dbt / Digdag / Cloud Composer / AWS Batch / Rundeck
-DataWareHouse | DWHのメインステージとなっているサービスは一通り扱ってきました。<br>Snowflake / BigQuery / RedShift / Treasure Data
-CI/CD| 基本的に構築してきた環境はほとんど自動化、コード化してきました。<br>Terraform / Cloud Formations / Circle CI / Github Actions / Jenkins / Ansible
+Programing Language| 得意はPython。その他、CやGolangのような低レイヤの言語も長く経験あり。またRailsやcakePHPのようなフレームワークも使える。<br>Go / Ruby / Python / Perl / PHP / TypeScript / C / C++
+BI Tool・ダッシュボード | 商用からオープンソースまで利用経験あり。BIツールは用途に沿った利用が可能。<br>Looker / Tableau / Data Studio / Metabase / Re:dash
+顧客獲得管理ツール| データ利活用経験のあるMA・SFA・CRMは以下。 <br> Salesforce / Marketo / Google Analytics / HeartCore
+Data Systems | 分散処理システムとして大規模から中小規模システムで以下を利用した経験あり。<br> Amazon EMR ( Hadoop / Spark ) / Cloud Dataflow / Treasure Data / Fivetran
+Job Management | dbtやDAG、workflowやcron処理などシーン毎に使い分けを選定できます。<br> dbt / Digdag / Airflow / Cloud Composer / AWS Batch / Rundeck
+クラウドデータプラットフォーム | DWHのメインステージとなっているサービスは一通り扱ってきました。<br>Snowflake / BigQuery / RedShift / Treasure Data
+CI/CD| 基本的に構築してきた環境はほとんど自動化、コード化しました。<br>Terraform / Cloud Formations / Circle CI / Github Actions / Jenkins / Ansible
 AWS | インフラ構築におけるおよそ一般的なサービスは一通り経験済。<br>VPC / S3 / Cloud Front / API Gateway / Lambda / ALB / ELB / EC2 / ECS / Fargate / Route53 / IAM / Cognito / Elasticsearch Service / RDS ( MySQL / PostgreSQL ) / Aurora / DynamoDB / ElastiCache (Redis) / Kinesis / Kinesis firehose / SageMaker / SQS / SNS / SES / Redshift / Redshift Spectrum / Amazon EMR ( Hadoop / Spark ) / Cloud Formation / Cloud Watch / AWS Batch / KMS / VPC Peering
 GCP | インフラ構築におけるおよそ一般的なサービスは一通り経験済。<br>GCE / GAE / GKE(Kubernetes) / Cloud SQL / GCS / Dataflow / BigQuery / Datastore / Cloud Composer / FireStore / AI Platform / Cloud Pub/Sub / Cloud Functions / Cloud CDN / Cloud IAP / Cloud KMS / Cloud NAT / Cloud Build / Stackdriver Logging / Stackdriver Monitoring
 
@@ -107,20 +107,20 @@ GCP | インフラ構築におけるおよそ一般的なサービスは一通�
 
 #### 開発環境の整備全般
 
-アジャイル開発を取り入れたプロジェクト管理や、Github導入などDevOps開発手法を採り入れた。
+アジャイル開発を取り入れたプロジェクトやその管理手法、Github導入などDevOps開発手法を採り入れた。
 
- - プロジェクト・ドキュメント管理にJira・Confluenceを採用、チャットツールやGithubなどモダン開発ツールを採用
- - git runnerによるCI/CDや、TerraformによるInfrastructure as Codeで構成管理と継続的デリバリーを提供
- - dbt Cloud、Fivetranや、Snowflakeといった最新のクラウドサービスのデータパイプラインの導入と構築
+ - プロジェクト・ドキュメント管理にJira・Confluenceを採用。slackやGithubなどモダン開発ツールを採用
+ - TerraformによるInfrastructure as Codeやgitlab runnerによるCI/CDで構成管理と継続的デリバリーを提供
+ - dbt Cloud、Fivetranや、Snowflakeといった最新クラウドサービスのデータパイプライン導入と構築
 
 #### 新製品のPdM・コンサルタント
 
 データ分析用BIプロダクトのサービス仕様や設計、運用などの製品コンサルタント業務を担当。
-また、プロダクトマネージャとして製品知識の提供や他社比較分析などについて貢献した。
+また、プロダクトマネージャとして製品知識の提供や他社比較分析等に貢献した。
 
- - データの可視化、ダッシュボード仕様、データ構造や顧客ドキュメントの形式などの提案
+ - データの可視化、ダッシュボード仕様、データガバナンスや顧客ドキュメント形式の提案
  - BIツールやデータ連携ツールなどの競合分析や、カスタマーサクセス・マーケティング分野に対するドメイン知識を提供
- - ツールの料金設計や製品のスケールなど、運用についても考慮したツール選定をした
+ - プロダクト料金設計や製品のスケールを睨んだ構成など、運用についても考慮した
 
 #### 顧客獲得プロセス可視化ソリューション開発
 
@@ -129,7 +129,7 @@ CRM・MA・Web解析ツールなどのデータを統合してマーケティン
 
  - SalesforceやMarketoのようなCRM、MAツール、Google Analyticsのような解析ツールなどを統合し、カスタムソリューションを開発・展開した
  - ウェビナーやサービスサイト、広告に対するKPIや、リード・CV数・エンゲージメントなどのレポートなどBtoBマーケティングに必要なKPIの要件定義や設計を担当
- - ELT構築にあたり、スケールや利便性を考慮し、頒布にも耐えられるよう環境構築をした。
+ - ELT構築にあたり、ユースケースを想定したデータマート構築、ドメイン知識を反映したデータウェアハウスを構築した。
 
 ## 直近で関わった開発案件
 
@@ -138,11 +138,11 @@ CRM・MA・Web解析ツールなどのデータを統合してマーケティン
 期間: 2021年7月 - 2021年11月(業務委託)
 
 運用費削減のため、Treasure DataからBigQuery/Digdag構成へデータとジョブワークフローをマイグレーションするプロジェクトを支援した。
-支援にあたり、Treasure DataのTD関数とBigQueryの互換性調査や対応、移行モジュールやワークフローの作成、テスト項目の作成などに従事した。
+Treasure DataのTD関数とBigQueryの互換性調査や対応、汎用モジュールやワークフローの作成、テスト項目の作成などに従事した。
 
-- Treasure DataのワークフローをDigdagに移植した。移植にあたりHadoopとBigQueryの処理の違いなどにも留意した
-- コスト削減のための最適な処理の置き換えや、Treasure DataとDigdagの差異を埋めるための汎用モジュールなども構築した
-- テストケース作成や異常時の通知設計、移植後のデータ整合性確認などのチェックなどの詳細の確認も行った
+- Treasure DataのワークフローをDigdagに移植した。移植にあたりBigQueryとHadoopのMapReduce処理との差異などにも留意した
+- コスト削減のために最適な処理の置き換えや、Treasure DataとDigdagで共通利用可能な汎用モジュールなども構築した
+- テストケース作成や異常時の通知設計、移植後のデータ整合性チェックなどの詳細の確認も行った
 
 ## 過去に関わった開発案件
 
