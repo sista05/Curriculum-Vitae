@@ -87,11 +87,11 @@ SIer時代に培った耐障害設計、低レイヤや障害対応まで幅広�
 項目|詳細|
 :--:|--
 Programing Language| 得意はPython。その他、CやGolangのような低レイヤの言語も長く経験あり。またRailsやcakePHPのようなフレームワークも使える。<br>Go / Ruby / Python / Perl / PHP / TypeScript / C / C++
-BI Tool・ダッシュボード | 商用からオープンソースまで利用経験あり。BIツールは用途に沿った利用が可能。<br>Looker / Tableau / Data Studio / Metabase / Re:dash
+BI Tool・ダッシュボード | 商用からオープンソースまで利用経験あり。BIツールは用途に沿った利用が可能。<br>Looker / Tableau / GoodData / Data Studio / Metabase / Re:dash
 顧客獲得管理ツール| データ利活用経験のあるMA・SFA・CRMは以下。 <br> Salesforce / Marketo / Google Analytics / HeartCore
 Data Systems | 分散処理システムとして大規模から中小規模システムで以下を利用した経験あり。<br> Amazon EMR ( Hadoop / Spark ) / Cloud Dataflow / Treasure Data / Fivetran
 Job Management | dbtやDAG、workflowやcron処理などシーン毎に使い分けを選定できます。<br> dbt / Digdag / Airflow / Cloud Composer / AWS Batch / Rundeck
-クラウドデータプラットフォーム | DWHのメインステージとなっているサービスは一通り扱ってきました。<br>Snowflake / BigQuery / RedShift / Treasure Data
+クラウドデータプラットフォーム | DWHのメインデータプラットフォームとなっているサービスは一通り扱ってきました。<br>Snowflake / BigQuery / RedShift / Treasure Data
 CI/CD| 基本的に構築してきた環境はほとんど自動化、コード化しました。<br>Terraform / Cloud Formations / Circle CI / Github Actions / Jenkins / Ansible
 AWS | インフラ構築におけるおよそ一般的なサービスは一通り経験済。<br>VPC / S3 / Cloud Front / API Gateway / Lambda / ALB / ELB / EC2 / ECS / Fargate / Route53 / IAM / Cognito / Elasticsearch Service / RDS ( MySQL / PostgreSQL ) / Aurora / DynamoDB / ElastiCache (Redis) / Kinesis / Kinesis firehose / SageMaker / SQS / SNS / SES / Redshift / Redshift Spectrum / Amazon EMR ( Hadoop / Spark ) / Cloud Formation / Cloud Watch / AWS Batch / KMS / VPC Peering
 GCP | インフラ構築におけるおよそ一般的なサービスは一通り経験済。<br>GCE / GAE / GKE(Kubernetes) / Cloud SQL / GCS / Dataflow / BigQuery / Datastore / Cloud Composer / FireStore / AI Platform / Cloud Pub/Sub / Cloud Functions / Cloud CDN / Cloud IAP / Cloud KMS / Cloud NAT / Cloud Build / Stackdriver Logging / Stackdriver Monitoring
@@ -119,7 +119,7 @@ GCP | インフラ構築におけるおよそ一般的なサービスは一通�
 また、プロダクトマネージャとして製品知識の提供や他社比較分析等に貢献した。
 
  - データの可視化、ダッシュボード仕様、データガバナンスや顧客ドキュメント形式の提案
- - BIツールやデータ連携ツールなどの競合分析や、カスタマーサクセス・マーケティング分野に対するドメイン知識を提供
+ - BIツールやデータ連携ツールなどの製品比較・製品プロダクトの競合分析や、カスタマーサクセスの知見やマーケティング分野に対するドメイン知識を提供
  - プロダクト料金設計や製品のスケールを睨んだ構成など、運用についても考慮した
 
 #### 顧客獲得プロセス可視化ソリューション開発
