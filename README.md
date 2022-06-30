@@ -1,5 +1,4 @@
-Â# 職務経歴書（スキルシート）
-
+# 職務経歴書（スキルシート）
 
 <table class="main_table">
     <thead>
@@ -88,15 +87,16 @@ SIer時代に培った耐障害設計、低レイヤや障害対応まで幅広�
 
 項目|詳細|
 :--:|--
-Programing Language| 得意はPython。その他、CやGolangのような低レイヤの言語も長く経験あり。またRailsやcakePHPのようなフレームワークも使える。<br>Go / Ruby / Python / Perl / PHP / TypeScript / C / C++
-BI Tool・ダッシュボード | 商用からオープンソースまで利用経験あり。BIツールは用途に沿った利用が可能。<br>Looker / Tableau / GoodData / Data Studio / Metabase / Re:dash
-顧客獲得管理ツール| データ利活用経験のあるMA・SFA・CRMは以下。 <br> Salesforce CDP・MC / Marketo / Pardot / Google Analytics 4 / HeartCore
-Data Systems | 分散処理システムとして大規模から中小規模システムで以下を利用した経験あり。<br> Amazon EMR ( Hadoop / Spark ) / Cloud Dataflow / Treasure Data / Fivetran / Airflow
-Job Management | dbtやDAG、workflowやcron処理などシーン毎に使い分けを選定できます。<br> dbt / Digdag / Airflow / Cloud Composer / AWS Batch / Rundeck
-クラウドデータプラットフォーム | DWHのメインデータプラットフォームとなっているサービスは一通り扱ってきました。<br>Snowflake / BigQuery / RedShift / Treasure Data
-CI/CD| 基本的に構築してきた環境はほとんど自動化、コード化しました。<br>Terraform / Cloud Formations / Circle CI / Github Actions / Jenkins / Ansible
-AWS | インフラ構築におけるおよそ一般的なサービスは一通り経験済。<br>VPC / S3 / Cloud Front / API Gateway / Lambda / ALB / ELB / EC2 / ECS / Fargate / Route53 / IAM / Cognito / Elasticsearch Service / RDS ( MySQL / PostgreSQL ) / Aurora / DynamoDB / ElastiCache (Redis) / Kinesis / Kinesis firehose / SageMaker / SQS / SNS / SES / Redshift / Redshift Spectrum / Amazon EMR ( Hadoop / Spark ) / Cloud Formation / Cloud Watch / AWS Batch / KMS / VPC Peering
-GCP | インフラ構築におけるおよそ一般的なサービスは一通り経験済。<br>GCE / GAE / GKE(Kubernetes) / Cloud SQL / GCS / Dataflow / BigQuery / Datastore / Cloud Composer / FireStore / AI Platform / Cloud Pub/Sub / Cloud Functions / Cloud CDN / Cloud IAP / Cloud KMS / Cloud NAT / Cloud Build / Stackdriver Logging / Stackdriver Monitoring
+Programing Language|  Python / Go / Ruby / Perl / PHP / TypeScript / C / C++
+Framework | Ruby on Rails / Cake PHP / React
+BI Tool |Looker / Tableau / GoodData / Data Studio / Metabase / Re:dash
+CDP・MA | Salesforce CDP・MC / Marketo / Pardot / HeartCore
+ETL | Amazon EMR ( Hadoop / Spark ) / Cloud Dataflow / Treasure Data / Fivetran / Airflow / dbt・dbt Cloud
+Job Management | Digdag / Airflow / Cloud Composer / AWS Batch / Rundeck
+DWH | Snowflake / BigQuery / RedShift / Treasure Data
+CI/CD| Terraform / Cloud Formations / Circle CI / Github Actions / Jenkins / Ansible
+AWS | VPC / S3 / Cloud Front / API Gateway / Lambda / ALB / ELB / EC2 / ECS / Fargate / Route53 / IAM / Cognito / Elasticsearch Service / RDS ( MySQL / PostgreSQL ) / Aurora / DynamoDB / ElastiCache (Redis) / Kinesis / Kinesis firehose / SageMaker / SQS / SNS / SES / Redshift / Redshift Spectrum / Amazon EMR ( Hadoop / Spark ) / Cloud Formation / Cloud Watch / AWS Batch / KMS / VPC Peering
+GCP | GCE / GAE / GKE(Kubernetes) / Cloud SQL / GCS / Dataflow / BigQuery / Datastore / Cloud Composer / FireStore / AI Platform / Cloud Pub/Sub / Cloud Functions / Cloud CDN / Cloud IAP / Cloud KMS / Cloud NAT / Cloud Build / Stackdriver Logging / Stackdriver Monitoring
 
 ## 現在継続中の開発案件
 
@@ -104,34 +104,33 @@ GCP | インフラ構築におけるおよそ一般的なサービスは一通�
 
 期間: 2022年3月 - 継続中(業務委託)
 
-大規模ECサイトにおけるSalesforce CDP・MCを用いたCRMシステム構築を支援。担当はCDP(データの取り込み・変換)を中心に、システム監視フローの構築、
-MC(マルチチャネルデバイスによるマーケティングオートメーション)によるカスタマージャーニーの自動化を担当。
-システム全体の要件定義構成も一部支援、また、SalesforceシステムへsfdxによるIaC・CI/CD導入も担当。
-その他、Tableauによるダッシュボード可視化、大規模データ抽出、性能速度検証を担当。
+大規模ECサイトにおけるSalesforce CDP・MC導入を支援。CDPでは主にデータ取込と変換、システム監視フローの構築を、MCではカスタマージャーニーの自動化を担当。
+システム全体の要件定義も一部担当。また、sfdxによるIaC・CI/CDを導入。
+その他、Tableauによるシステムパフォーマンス・顧客データ可視化、大規模データ・性能速度検証なども担当。
 
 
 #### CDP・MC構築
-Salesforce CDP・MC環境構築、特にCDPのシステム環境健常性を維持するための監視システム構築を中心に担当した。
+Salesforce CDP・MC環境構築、特にCDPのサービス正常性を維持するための監視システム構築を中心に担当した。
 
-- CDP構築ではデータ取込・変換、データマッピング、データモデリング、セグメント作成・出力までの一連の流れの構築を支援した
-- システム状況監視をプロセス自動化フローで実現、MCの検証アクティビティと組み合わせてシステム健常性を監視し一部自動で修復、通知するシステムを構築したした
-- MC構築では、上記システム監視の他にLine通知などのデータエクステンションなどの作成を担当した
+- CDP構築ではデータ取込・変換、データマッピング、データモデリング、セグメント作成・出力までの一連の流れの構築を担当した
+- システム状況監視をプロセス自動化フローで実現、MCの検証アクティビティと組み合わせてシステム正常性を監視し、一部自動で修復・通知するシステムを構築した
+- MCではシステム監視の他に、Line通知などデータエクステンションの作成を担当した
 
 
 ### 要件定義・環境情報のIaC化
-システムの障害設計における要件定義を支援。システムの構成情報をドキュメント化しコード情報と互換性を持たせて整合性確認を工夫した。
+システム運用設計における要件定義を担当。また、システム構成情報をコード化・ドキュメント化しインフラ管理と保守コスト削減に貢献した。
 
-- sfdxによるIaC、CI/CDでの構成情報管理を提言、一部これを採用し構成管理コストを大幅に低減することに貢献した
-- 一部最新のシステム構成については、Salesforceの開発チームと並走しながら構成情報を連携しつつシステム
-- 保守作業は作業の全てをドキュメント化しナレッジの共有を意識しながら作業を進めた
+- sfdxによるIaC・CI/CDでの構成情報管理を提言し採用。構成情報の整合性を図ると同時に構成管理コストを大幅に削減した
+- 一部最新のシステム構成については、Salesforceの開発チームと並走しながら情報連携し、Salesforce全体の品質向上に貢献した
+- 保守作業は作業と並行してドキュメント化するなど、ナレッジの共有を意識しながら作業を進めた
 
 
-### 可視化・性能速度・データ移行支援
+### 顧客・システム情報・速度性能の可視化
 
-顧客・システム情報の可視化のための環境構築を中心に担当した。また、一部ダッシュボード自体の構築やデータ突合などのテストも実施した。
+顧客・システム情報可視化のためのBI環境構築を担当した。また、ダッシュボードの構築やデータ突合など整合性テストも実施した。
 
-- BI可視化ではエンゲージメント予測やファネル分析チャート内部システム監視(システム健常性・性能速度など)ダッシュボードの構築を担当した
-- Tableau OnlineのSalesforce CDPデータや、一部AWS Athenaと連携したシステム環境部分の構築も担当した。
+- エンゲージメント予測、ファネル分析チャート、内部システム監視(システム健常性・性能速度)のダッシュボード構築を担当した
+- Tableau OnlineのSalesforce CDPデータや、AWS Athenaと連携したシステム環境構築を担当した
 - 一部旧システムからのデータ移行に伴い、抽出データや定義情報のバリデーションチェックやデータインポート後のデータ突合確認などデータ整合性の向上に勤めた
 
 ## 直近で関わった開発案件
@@ -145,13 +144,15 @@ Salesforce CDP・MC環境構築、特にCDPのシステム環境健常性を維�
 
 #### 顧客獲得プロセス可視化ソリューション開発
 
-Salesforce・Marketo・GAのデータを統合した独自のインタラクティブなリードファネル・営業リーダーボード・KPIおよび営業活動のダッシュボードサイトを構築した。
-- 技術要件として、フロントエンドにはReact Chakra UI、バックエンドにはRuby on Rails、DB/DWHを同一の環境として利用するためにSnowflakeを利用した
-- データ統合にはFivetranによるETL(一部リバースETL)を、データモデリングにはdbt Cloudを用いて環境を管理した
-- 開発において要件定義から担当した。営業用の独自用語を開発の一般的な用語に落とし込み、業務要件をヒアリングして業務フローを作成し、これまでの業務における冗長な作業や散逸したリソースを一元管理し、外部仕様として開発の技術選定を行い、必要な技術を決定した。
+Salesforce・Marketo・Google Analyticsのデータを統合した独自のインタラクティブなリードファネル・営業リーダーボード・KPIおよび営業活動のダッシュボードサイトを構築した。構築にあたっては、一般的なシステム開発の手法を採用したいという希望に応えた。
+
+- システムの技術要件を全面的に検討・決定した。フロントエンドにはReact Chakra UI、バックエンドにはRuby on Rails、その他、CI/CDにGithub Runner、構成管理にTerraformなど一通りの一般的なシステム構築における手法を提言した
+- ETL環境として、データ統合にはFivetranを、データ変換にはdbt Cloudを、DB/DWHとしてSnowflakeを用いて従来のデータ構成をモデリングし直した
+- 要件定義では、営業用の独自用語を開発の一般的な用語に落とし込み、業務要件をヒアリングして業務フローを作成し、業務における冗長な作業や散逸したリソースを一元管理し、外部仕様として開発の技術選定を行い、必要な技術を決定した
 
 #### 開発環境の整備全般
 アジャイル開発を取り入れたプロジェクトやその管理手法、Github導入などDevOps開発手法を採り入れた。
+
 - プロジェクト・ドキュメント管理にJira・Confluenceを採用。slackやGithubなどモダン開発ツールを採用した
 - TerraformによるInfrastructure as Codeやgitlab runnerによるCI/CDで構成管理と継続的デリバリーを提供した
 - dbt Cloudのドキュメント機能などを自動でクラウドに保存するように、自動でドキュメンテーションを拡充、保守する仕組みを構築した
