@@ -100,7 +100,7 @@ GCP | GCE / GAE / GKE(Kubernetes) / Cloud SQL / GCS / Dataflow / BigQuery / Data
 
 ## 現在継続中の開発案件
 
-### ECサイトのCRM環境(Salesforce CDP・MC)構築
+### ECサイトのSalesforce CDP・MC 環境構築
 
 期間: 2022年3月 - 継続中(業務委託)
 
