@@ -1,64 +1,86 @@
 # 職務経歴書（スキルシート）
 
+## 基本情報
+
 <table class="main_table">
     <thead>
         <tr>
-            <th align="center" width="10%">key</th>
-            <th align="center" width="50%">value</th>
-            <th align="center" width="40%">photo</th>
+            <th align="center" width="10%">項目</th>
+            <th align="center" width="50%">詳細</th>
+            <th align="center" width="40%">近影</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td align="center" width="10%">Name</td>
-            <td align="center" width="50%"> Akira Iwasaki </td>
-            <td rowspan=9 > <img src="img/img.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td align="left" width="10%">Name</td>
+            <td align="left" width="50%"> Akira Iwasaki </td>
+            <td rowspan=6 > <img src="img/img.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
         </tr>
         <tr>
-            <td align="center" >Location</td>
-            <td align="center"> 神奈川県川崎市  </td>
+            <td align="left" >Location</td>
+            <td align="left"> 神奈川県川崎市  </td>
         </tr>
         <tr>
-            <td align="center"> Education</td>
-            <td align="center">Nagoya University</td>
+            <td align="left"> Education</td>
+            <td align="left">Nagoya University</td>
         </tr>
         <tr>
-            <td align="center">Company</td>
-            <td align="center"><a href="https://datamarket.co.jp">株式会社DataMarket</td>
+            <td align="left">Company</td>
+            <td align="left"><a href="https://datamarket.co.jp">株式会社DataMarket</td>
         </tr>
         <tr>
-            <td align="center">Qualification</td>
-            <td align="center">情報セキュリティスペシャリスト<br>基本情報処理技術者 等</td>
+            <td align="left">Qualification</td>
+            <td align="left">情報セキュリティスペシャリスト<br>基本情報処理技術者 等</td>
         </tr>
         <tr>
-            <td align="center">Media</td>
-            <td align="center"><a href="https://forkwell.connpass.com/event/189259">Data Engineering Study #4<br>「データ分析基盤の障害対応事例LT祭り」等</td>
+            <td align="left">Media</td>
+            <td align="left"><a href="https://forkwell.connpass.com/event/189259">Data Engineering Study #4<br>「データ分析基盤の障害対応事例LT祭り」等</td>
         </tr>
-        <tr>
-            <td align="center">Facebook</td>
-            <td align="center"> <a href="https://facebook.com/akisista05">Akira Iwasaki</td>
-        </tr>
-        <tr>
-            <td align="center">Twitter</td>
-            <td align="center"> <a href="https://twitter.com/sista05"> 代表のtwitter
-            <br><a href="https://twitter.com/d8amkt"> DataMarket公式twitter
-            </td>
-        </tr>
-        <tr>
-            <td align="center">Qiita</td>
-            <td align="center"> <a href="https://qiita.com/sista05"> https://qiita.com/sista05</td>
-        </tr>
-        <tr>
-            <td align="center">Zenn</td>
-            <td align="center"> <a href="https://zenn.dev/datamarket"> https://zenn.dev/datamarket</td>
-        </tr>
-        <tr>
-            <td align="center">LinkedIn</td>
-            <td align="center"><a href="https://www.linkedin.com/in/datamarket"> https://www.linkedin.com/in/datamarket</td>
-        </tr>    
     </tbody>
 </table>
 
+## SNS
+
+<table class="main_table">
+    <thead>
+        <tr>
+            <th align="center" width="30%">項目</th>
+            <th align="center" width="70%">詳細</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="left"><img src="img/Twitter.png" width="16"> Twitter</td>
+            <td align="left"> <a href="https://twitter.com/sista05"> Twitter
+            <br><a href="https://twitter.com/d8amkt"> (DataMarket公式Twitter)
+            </td>
+        </tr>
+        <tr>
+            <td align="left"><img src="img/LinkedIn.png" width="16"> LinkedIn</td>
+            <td align="left"><a href="https://www.linkedin.com/in/datamarket"> https://www.linkedin.com/in/datamarket</td>
+        </tr>
+        <tr>
+            <td align="left"><img src="img/qiita.png" width="16"> Qiita</td>
+            <td align="left"> <a href="https://qiita.com/sista05"> https://qiita.com/sista05</td>
+        </tr>
+        <tr>
+            <td align="left"><img src="img/Zenn.png" width="16"> Zenn</td>
+            <td align="left"> <a href="https://zenn.dev/datamarket"> https://zenn.dev/datamarket</td>
+        </tr>
+        <tr>
+            <td align="left"><img src="img/Note.png" width="16"> Note</td>
+            <td align="left"><a href="https://note.com/datamarket/"> https://note.com/datamarket/</td>
+        </tr>
+        <tr>
+            <td align="left"><img src="img/youtrust.jpeg" width="16"> YouTrust</td>
+            <td align="left"><a href="https://youtrust.jp/users/datamarket"> https://youtrust.jp/users/datamarket</td>
+        </tr>
+        <tr>
+            <td align="left"><img src="img/facebook.png" width="16"> Facebook</td>
+            <td align="left"> <a href="https://facebook.com/akisista05">Akira Iwasaki</td>
+        </tr>
+    </tbody>
+</table>
 
 - [自己紹介](#自己紹介)
 - [スキル](#スキル)
