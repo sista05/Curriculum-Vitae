@@ -68,8 +68,8 @@
             <td align="left"> <a href="https://zenn.dev/datamarket"> https://zenn.dev/datamarket</td>
         </tr>
         <tr>
-            <td align="left"><img src="img/Note.png" width="16"> Note</td>
-            <td align="left"><a href="https://note.com/datamarket/"> https://note.com/datamarket/</td>
+            <td align="left"><img src="img/note.jpeg" width="16"> Note</td>
+            <td align="left"><a href="https://note.com/datamarket"> https://note.com/datamarket</td>
         </tr>
         <tr>
             <td align="left"><img src="img/youtrust.jpeg" width="16"> YouTrust</td>
@@ -81,6 +81,8 @@
         </tr>
     </tbody>
 </table>
+
+## Contents
 
 - [自己紹介](#自己紹介)
 - [スキル](#スキル)
