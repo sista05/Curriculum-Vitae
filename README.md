@@ -68,7 +68,7 @@
             <td align="left"> <a href="https://zenn.dev/datamarket"> https://zenn.dev/datamarket</td>
         </tr>
         <tr>
-            <td align="left"><img src="img/note.jpeg" width="16"> Note</td>
+            <td align="left"><img src="img/note.jpg" width="16"> Note</td>
             <td align="left"><a href="https://note.com/datamarket"> https://note.com/datamarket</td>
         </tr>
         <tr>
