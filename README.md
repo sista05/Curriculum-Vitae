@@ -39,7 +39,7 @@
     </tbody>
 </table>
 
-## SNS
+## Article・SNS
 
 <table class="main_table">
     <thead>
@@ -70,6 +70,10 @@
         <tr>
             <td align="left"><img src="img/note.jpg" width="16"> Note</td>
             <td align="left"><a href="https://note.com/datamarket"> https://note.com/datamarket</td>
+        </tr>
+        <tr>
+            <td align="left"><img src="img/medium.png" width="16"> Medium</td>
+            <td align="left"><a href="https://medium.com/@akisista05"> https://medium.com/@akisista05</td>
         </tr>
         <tr>
             <td align="left"><img src="img/youtrust.jpeg" width="16"> YouTrust</td>
@@ -141,7 +145,7 @@ Salesforce CDP・MC環境構築、特にCDPのサービス正常性を維持す�
 - MCではシステム監視の他に、Line通知などデータエクステンションの作成を担当した
 
 
-### 要件定義・環境情報のIaC化
+#### 要件定義・環境情報のIaC化
 システム運用設計における要件定義を担当。また、システム構成情報をコード化・ドキュメント化しインフラ管理と保守コスト削減に貢献した。
 
 - sfdxによるIaC・CI/CDでの構成情報管理を提言し採用。構成情報の整合性を図ると同時に構成管理コストを大幅に削減した
@@ -149,7 +153,7 @@ Salesforce CDP・MC環境構築、特にCDPのサービス正常性を維持す�
 - 保守作業は作業と並行してドキュメント化するなど、ナレッジの共有を意識しながら作業を進めた
 
 
-### 顧客・システム情報・速度性能の可視化
+#### 顧客・システム情報・速度性能の可視化
 
 顧客・システム情報可視化のためのBI環境構築を担当した。また、ダッシュボードの構築やデータ突合など整合性テストも実施した。
 
