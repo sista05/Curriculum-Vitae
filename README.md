@@ -91,59 +91,188 @@
 - [自己紹介](#自己紹介)
 - [スキル](#スキル)
 - [現在継続中の開発案件](#現在継続中の開発案件)
-    - [ECサイトのCRM環境(Salesforce CDP・MC)構築](#ecサイトのcrm環境salesforce-cdpmc構築)
+  - [ECサイトのCRM環境(Salesforce CDP・MC)構築](#ecサイトのcrm環境salesforce-cdpmc構築)
+  - [ECサイトのCRM環境(Salesforce CDP・MC)構築](#ecサイトのcrm環境salesforce-cdpmc構築)
 - [直近で関わった開発案件](#直近で関わった開発案件)
-    - [顧客獲得プロセス可視化サイト構築・売り上げ拡大施策貢献](#顧客獲得プロセス可視化サイト構築売り上げ拡大施策貢献)
-    - [大規模視聴データの移行支援](#大規模視聴データの移行支援)
+  - [ECサイトのCRM環境(Salesforce CDP・MC)構築](#ecサイトのcrm環境salesforce-cdpmc構築)
+  - [顧客獲得プロセス可視化サイト構築・売り上げ拡大施策貢献](#顧客獲得プロセス可視化サイト構築売り上げ拡大施策貢献)
+  - [大規模視聴データの移行支援](#大規模視聴データの移行支援)
 - [過去に関わった開発案件](#過去に関わった開発案件)
-    - [リーガルテック企業の分析基盤構築](#リーガルテック企業の分析基盤構築)
-    - [大手美容サイト](#大手美容サイト)
-    - [旅行代理店の新規顧客管理システム](#旅行代理店の新規顧客管理システム)
-    - [モビリティ事業](#モビリティ事業)
+  - [リーガルテック企業の分析基盤構築](#リーガルテック企業の分析基盤構築)
+  - [大手美容サイト](#大手美容サイト)
+  - [旅行代理店の新規顧客管理システム](#旅行代理店の新規顧客管理システム)
+  - [モビリティ事業](#モビリティ事業)
 
 ## 自己紹介
 
-データエンジニア、データアーキテクトとして活動しているフリーランスエンジニア。
+都内でアナリティクスエンジニアとして活動しています。
+企業の部門で取り扱うデータを企業全体で共有し、利用技術を刷新してデータ分析の効率化を図り、BIを整備しデータを起点とした意思決定に役立てる仕事をしています。
 
-主に携わってきた業務は分析基盤構築、データ処理バッチジョブ作成、データ解析業務等。
-SIer時代に培った耐障害設計、低レイヤや障害対応まで幅広く視野に入れた設計を得意とする。
+具体的には、部門間で所持する情報リソースを一元管理するためのデータパイプラインの構築と、
+それを経営層、データアナリスト、データサイエンティストなどの各ステークホルダーに対して適切な形で届けるためのデータ分析基盤の構築、
+分析、経営指標を表現するBI環境の構築といった、企業全体のためのデータオーケストレーションを提供いたします。
 
-直近ではデータ分析から分析基盤構築までデータを広く扱う会社を設立。
-特にデータを活かした事業戦略支援や、分析データを元にELTを構築しKPI・KGIなどの指標管理を提供する方向に注力している。
+技術面ではCI/CDやデータ処理コードのモジュール化といった自動化、テストの導入、コンポーネント化による保守性・効率性の向上
+一方で、データマネジメントとしてドキュメントやメタデータ、データカタログの整備を行い、データ利用者環境を充実させます。
+
+秘匿情報やセンシティブデータの取り扱いに一定の基準を適用し、ゼロトラストの観点から企業の情報資産を保護します。
+
+以上、全体的なデータ利活用の方針として、企業のデータ活用成熟度アセスメントに従いデータやチームの性質に沿った形で最適な活用手段を提供いたします。
 
 ## スキル
+
+羅列はやめよう。特に目立つのは強調し、他は捨象するか目立たなく書くスタイルで
 
 項目|詳細|
 :--:|--
 Programing Language|  Python / Go / Ruby / Perl / PHP / TypeScript / C / C++
-Framework | Ruby on Rails / Cake PHP / React
 BI Tool |Looker / Tableau / GoodData / Data Studio / Metabase / Re:dash
-CDP・MA | Salesforce CDP・MC / Marketo / Pardot / HeartCore
-ETL | Amazon EMR ( Hadoop / Spark ) / Cloud Dataflow / Treasure Data / Fivetran / Airflow / dbt・dbt Cloud
+マーケティングオートメーション | Salesforce CDP・MC / Marketo / Pardot / HeartCore
+ETL |  Dbt・Dbt Cloud / Dagster / Fivetran / Amazon EMR ( Hadoop / Spark ) / Cloud Dataflow / Treasure Data /  Airflow
 Job Management | Digdag / Airflow / Cloud Composer / AWS Batch / Rundeck
 DWH | Snowflake / BigQuery / RedShift / Treasure Data
 CI/CD| Terraform / Cloud Formations / Circle CI / Github Actions / Jenkins / Ansible
+Development Frameworks | Ruby on Rails / Cake PHP / React
 AWS | VPC / S3 / Cloud Front / API Gateway / Lambda / ALB / ELB / EC2 / ECS / Fargate / Route53 / IAM / Cognito / Elasticsearch Service / RDS ( MySQL / PostgreSQL ) / Aurora / DynamoDB / ElastiCache (Redis) / Kinesis / Kinesis firehose / SageMaker / SQS / SNS / SES / Redshift / Redshift Spectrum / Amazon EMR ( Hadoop / Spark ) / Cloud Formation / Cloud Watch / AWS Batch / KMS / VPC Peering
 GCP | GCE / GAE / GKE(Kubernetes) / Cloud SQL / GCS / Dataflow / BigQuery / Datastore / Cloud Composer / FireStore / AI Platform / Cloud Pub/Sub / Cloud Functions / Cloud CDN / Cloud IAP / Cloud KMS / Cloud NAT / Cloud Build / Stackdriver Logging / Stackdriver Monitoring
 
+<table class="main_table">
+    <thead>
+        <tr>
+            <th align="center" width="20%"></th>
+            <th align="center" width="80%" colspan="2">Skills・Tools</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="left" width="10%">Programing Language</td>
+            <td align="left" width="30%" colspan="2" >  Python / Go / Ruby / Perl / PHP / TypeScript / C / C++ </td>
+        </tr>
+        <tr>
+            <td rowspan="5"> Data Enginnering </td>
+        </tr>
+        <tr>
+            <td align="left"> データ処理 </td>
+            <td align="left"> Amazon EMR (Hadoop/Spark) / Cloud Dataflow / Treasure Data  </td>
+        </tr>
+        <tr>
+             <td align="left"> ジョブ管理 </td>
+             <td align="left"> Digdag / Airflow / Cloud Composer /AWS Batch / Rundeck </td>
+        </tr>
+        <tr>
+             <td align="left"> データモデリング・データパイプライン </td>
+             <td align="left"> DBT / Dagster / Fivetran </td>
+        </tr>
+        <tr>
+             <td align="left"> DWH </td>
+             <td align="left"> Snowflake / BigQuery / RedShift / Treasure Data </td>
+        </tr>
+        <tr>
+            <td rowspan="4"> Data Analytics </td>
+        </tr>
+        <tr>
+            <td align="left"> マーケティングオートメーション </td>
+            <td align="left"> Salesforce CDP・MC / Marketo / Pardot / HeartCore  </td>
+        </tr>
+        <tr>
+             <td align="left"> BI </td>
+             <td align="left"> Looker / Tableau / GoodData / Data Studio / Metabase / Re:dash </td>
+        </tr>
+        <tr>
+             <td align="left"> あとなんか </td>
+             <td align="left"> </td>
+        </tr>
+        <tr>
+            <td rowspan="7"> AWS </td>
+        </tr>
+        <tr>
+            <td align="left"> ネットワーキング </td>
+            <td align="left"> VPC / Route53 / API Gateway / ALB (Application Load Balancer) / ELB (Elastic Load Balancer) / VPC Peering </td>
+        </tr>
+        <tr>
+             <td align="left"> ストレージ </td>
+             <td align="left"> S3 / EFS (Elastic File System) / Elastic Block Storage (EBS) </td>
+        </tr>
+        <tr>
+             <td align="left"> コンピューティング </td>
+             <td align="left"> EC2 / Lambda / ECS (Elastic Container Service) / Fargate / AWS Batch</td>
+        </tr>
+        <tr>
+             <td align="left"> データベース </td>
+             <td align="left"> RDS (MySQL, PostgreSQL) / Aurora / DynamoDB / DynamoDB / ElastiCache (Redis) / Redshift / Elasticsearch </td>
+        </tr>
+    </tbody>
+</table>
+
 ## 現在継続中の開発案件
+
+### 大手ネット印刷・広告・運送企業のデータ分析基盤構築と改善
+
+期間: 2022年9月 - 継続中(業務委託)
+
+事業の効率化を進めるためアナリティクスエンジニアとしてデータ分析基盤の整理、分析利用のための自動化を推し進めた。
+
+- データオーケストレーションツールとしてDagsterを導入し、データアナリストやデータサイエンティストに対してより効率的なデータの利活用を進められる基盤の整備を行なったデータドリブンな
+  - Dagsterとの連携により、データ利用量や処理時間の可視化を強化、パイプラインを構築した
+  - dbtとの連携により、データリネージとメタデータもパイプライン上に組み込んで表現した
+- 環境のリファクタをして、いろんな立場の人にとって使いやすい環境を提供した。って普通の話なので、具体的に。
+  - CI/CDを刷新し、データドリブンな貢献した
+  - dbtによる自動ドキュメント生成により、資料を一元管理しながらも、ステークホルダーに対してだけでなく読みやすいデータの資料をメタデータ合わせて随時最新の情報を提供できるようにした
+- 各部門がデータを見やすいようにビジネスデータやデータモデリングを刷新した
+  - DataCatalogを用いて、閲覧できるデータを部門毎に管理し全体として情報の秘匿性を向上した
+  - データモデリングではDWHに加えてDDDの考えも取り入れ、責務の分担とテスト項目の細分化によるデータ品質向上を果たした。
+
+### 大手家電量販店におけるDX化推進
+
+期間: 2022年10月 - 継続中(業務委託)
+
+大手家電量販店のDX化推進として、新旧顧客データの会員情報連携のための統合会員管理システムおよび認証・認可プラットフォームのシステム設計から開発まで担当した。
+具体的には、新旧顧客データのID統合・マイグレーションにおけるデータ設計と、データ集約基盤のシステム設計開発、ビジネスメタデータのデータカタログ設計、開発を担当した。
+
+- データ統合基盤の設計と開発を担当した
+統合データ基盤とは具体的にどういったものですか？
+顧客情報を管理サーバ
+  - 統合データ基盤を構成するために必要なシステムはCloudFormationにより構築し、構成の一元的な管理と運用保守に関しての方針とドキュメントを整備した
+  - 複数のチームによるCI/CDがまわるようにルールを整備したwikiを整備し、資料を一元
+- Auth0で新旧顧客データのID統合
+  - Auto0による認証認可の仕組みと、支援した
+
+- データカタログを作成しビジネスメタデータの管理システムを構築
+  -
+
+- Salesforce ServiceCloudとのシームレスなデータ連携のために、CDCシステムの構築とメタデータ管理システムを内製した。
+
+<details>
+<summary>詳細</summary>
+
+大手家電量販店においてDX推進のため、旧基盤から新基盤へ顧客データの整合性を
+該当のシステムを実現するために、
+俺はこれのデータ構造の構築、技術選定、利活用、インフら構築、をすベテ担当。
+
+CDC機能として、Amazon DMS　情報連携をリアルタイムに、Salesforce SvCとの情報連携をリアルタイムに。
+appflowで連携。
+
+情報管理のために、ビジネスデータのメタデータ管理を内製
+
+</details>
+
+## 直近で関わった開発案件
 
 ### ECサイトのSalesforce CDP・MC 環境構築
 
-期間: 2022年3月 - 継続中(業務委託)
+期間: 2022年3月 - 2022年9月(業務委託)
 
 大規模ECサイトにおけるSalesforce CDP・MC導入を支援。CDPでは主にデータ取込と変換、システム監視フローの構築を担当。MCではカスタマージャーニーの設定を担当。
 システム全体の要件定義も一部担当。また、sfdxによるIaC・CI/CDを導入。
 その他、Tableauによるシステムパフォーマンス・顧客データ可視化、大規模データ・性能速度検証なども担当。
 
-
 #### CDP・MC構築
+
 Salesforce CDP・MC環境構築、特にCDPのサービス正常性を維持するための監視システム構築を中心に担当した。
 
 - CDP構築ではデータ取込・変換、データマッピング、データモデリング、セグメント作成・出力までの一連の流れの構築を担当した
 - システム状況監視をプロセス自動化フローで実現、MCの検証アクティビティと組み合わせてシステム正常性を監視し、一部自動で修復・通知するシステムを構築した
 - MCではシステム監視の他に、LINE通知などデータエクステンションの作成を担当した
-
 
 #### 要件定義・環境情報のIaC化
 
@@ -153,7 +282,6 @@ Salesforce CDPのシステム運用設計における要件定義を担当。ま
 - 一部最新のシステム構成については、Salesforceの開発チームと並走しながら情報連携し、Salesforce全体の品質向上に貢献した
 - 保守作業は作業と並行してドキュメント化するなど、ナレッジの共有を意識しながら作業を進めた
 
-
 #### 顧客・システム情報・速度性能の可視化
 
 顧客・システム情報可視化のためのBI環境構築を担当した。また、ダッシュボードの構築やデータ突合など整合性テストも実施した。
@@ -161,8 +289,6 @@ Salesforce CDPのシステム運用設計における要件定義を担当。ま
 - エンゲージメント予測、ファネル分析チャート、内部システム監視(システム健常性・性能速度)のダッシュボード構築を担当した
 - Tableau OnlineのSalesforce CDPデータや、AWS Athenaと連携したシステム環境構築を担当した
 - 一部旧システムからのデータ移行に伴い、抽出データや定義情報のバリデーションチェックやデータインポート後のデータ突合確認などデータ整合性の向上に勤めた
-
-## 直近で関わった開発案件
 
 ### 顧客獲得プロセス可視化サイト構築・売り上げ拡大施策支援
 
@@ -180,6 +306,7 @@ Salesforce・Marketo・Google Analyticsのデータを統合した独自のイ�
 - 要件定義では、営業用の独自用語を開発の一般的な用語に落とし込み、業務要件をヒアリングして業務フローを作成し、業務における冗長な作業や散逸したリソースを一元管理し、外部仕様として開発の技術選定を行い、必要な技術を決定した
 
 #### 開発環境の整備全般
+
 アジャイル開発を取り入れたプロジェクトやその管理手法、Github導入などDevOps開発手法を採り入れた。
 
 - プロジェクト・ドキュメント管理にJira・Confluenceを採用。slackやGithubなどモダン開発ツールを採用した
@@ -187,12 +314,12 @@ Salesforce・Marketo・Google Analyticsのデータを統合した独自のイ�
 - dbt Cloudのドキュメント機能などを自動でクラウドに保存するように、自動でドキュメンテーションを拡充、保守する仕組みを構築した
 
 #### グロースハック(グロースマーケティング)への寄与
+
 新製品のBIプロダクトのPdMとして売り上げ拡大に貢献するために、グロースハック手法を導入した。
 
 - ファネルとコホートを強く意識した分析を行い、事業解像度を上げることに注力した
 - 分析手法導入にあたってはデータのサイロ化、データガバナンスなどのデータ基盤の根本となるところから整理し、導入における基礎を築くのに貢献した
 - 分析手法実現の背景には可視化ソリューションでも利用したSnowflakeやFivetran、dbtなどのモダンなETLツールの導入を役立てることができた
-
 
 ### 大規模視聴データの移行支援
 
