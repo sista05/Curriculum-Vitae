@@ -91,7 +91,7 @@
 - [自己紹介](#自己紹介)
 - [スキル](#スキル)
 - [現在継続中の開発案件](#現在継続中の開発案件)
-  - [ECサイトのCRM環境(Salesforce CDP・MC)構築](#ecサイトのcrm環境salesforce-cdpmc構築)
+  - [大手ネット印刷・広告・運送企業のデータ分析基盤構築と自動化推進](#大手ネット印刷・広告・運送企業のデータ分析基盤構築と自動化推進)
   - [ECサイトのCRM環境(Salesforce CDP・MC)構築](#ecサイトのcrm環境salesforce-cdpmc構築)
 - [直近で関わった開発案件](#直近で関わった開発案件)
   - [ECサイトのCRM環境(Salesforce CDP・MC)構築](#ecサイトのcrm環境salesforce-cdpmc構築)
@@ -121,26 +121,10 @@
 
 ## スキル
 
-羅列はやめよう。特に目立つのは強調し、他は捨象するか目立たなく書くスタイルで
-
-項目|詳細|
-:--:|--
-Programing Language|  Python / Go / Ruby / Perl / PHP / TypeScript / C / C++
-BI Tool |Looker / Tableau / GoodData / Data Studio / Metabase / Re:dash
-マーケティングオートメーション | Salesforce CDP・MC / Marketo / Pardot / HeartCore
-ETL |  Dbt・Dbt Cloud / Dagster / Fivetran / Amazon EMR ( Hadoop / Spark ) / Cloud Dataflow / Treasure Data /  Airflow
-Job Management | Digdag / Airflow / Cloud Composer / AWS Batch / Rundeck
-DWH | Snowflake / BigQuery / RedShift / Treasure Data
-CI/CD| Terraform / Cloud Formations / Circle CI / Github Actions / Jenkins / Ansible
-Development Frameworks | Ruby on Rails / Cake PHP / React
-AWS | VPC / S3 / Cloud Front / API Gateway / Lambda / ALB / ELB / EC2 / ECS / Fargate / Route53 / IAM / Cognito / Elasticsearch Service / RDS ( MySQL / PostgreSQL ) / Aurora / DynamoDB / ElastiCache (Redis) / Kinesis / Kinesis firehose / SageMaker / SQS / SNS / SES / Redshift / Redshift Spectrum / Amazon EMR ( Hadoop / Spark ) / Cloud Formation / Cloud Watch / AWS Batch / KMS / VPC Peering
-GCP | GCE / GAE / GKE(Kubernetes) / Cloud SQL / GCS / Dataflow / BigQuery / Datastore / Cloud Composer / FireStore / AI Platform / Cloud Pub/Sub / Cloud Functions / Cloud CDN / Cloud IAP / Cloud KMS / Cloud NAT / Cloud Build / Stackdriver Logging / Stackdriver Monitoring
-
 <table class="main_table">
     <thead>
         <tr>
-            <th align="center" width="20%"></th>
-            <th align="center" width="80%" colspan="2">Skills・Tools</th>
+            <th align="center"  colspan="3">Skills・Tools</th>
         </tr>
     </thead>
     <tbody>
@@ -183,7 +167,7 @@ GCP | GCE / GAE / GKE(Kubernetes) / Cloud SQL / GCS / Dataflow / BigQuery / Data
              <td align="left"> </td>
         </tr>
         <tr>
-            <td rowspan="7"> AWS </td>
+            <td rowspan="5"> AWS </td>
         </tr>
         <tr>
             <td align="left"> ネットワーキング </td>
@@ -201,16 +185,51 @@ GCP | GCE / GAE / GKE(Kubernetes) / Cloud SQL / GCS / Dataflow / BigQuery / Data
              <td align="left"> データベース </td>
              <td align="left"> RDS (MySQL, PostgreSQL) / Aurora / DynamoDB / DynamoDB / ElastiCache (Redis) / Redshift / Elasticsearch </td>
         </tr>
+        <tr>
+            <td rowspan="7"> GCP </td>
+        </tr>
+        <tr>
+            <td align="left"> コンピューティング </td>
+            <td align="left"> GCE / GAE / GKE </td>
+        </tr>
+        <tr>
+             <td align="left"> ストレージとデータベース </td>
+             <td align="left"> GCS（Google Cloud Storage）/ Cloud SQL / Datastore / Firestore </td>
+        </tr>
+        <tr>
+             <td align="left"> データ分析とビッグデータ </td>
+             <td align="left"> Dataflow / BigQuery / AI Platform </td>
+        </tr>
+        <tr>
+             <td align="left"> ワークフロー管理とオーケストレーション </td>
+             <td align="left"> Cloud Composer </td>
+        </tr>
+        <tr>
+             <td align="left"> メッセージングとイベント駆動型処理 </td>
+             <td align="left"> Cloud Pub/Sub / Cloud Functions</td>
+        </tr>
+        <tr>
+             <td align="left"> ネットワーキングとセキュリティ </td>
+             <td align="left"> Cloud CDN / Cloud IAP / Cloud KMS / Cloud NAT </td>
+        </tr>
+        <tr>
+             <td align="left"> CI/CDと開発ツール </td>
+             <td align="left"> Cloud Build </td>
+        </tr>
+        <tr>
+             <td align="left"> モニタリングとロギング </td>
+             <td align="left"> Cloud Logging / Cloud Monitoring </td>
+        </tr>
     </tbody>
 </table>
 
 ## 現在継続中の開発案件
 
-### 大手ネット印刷・広告・運送企業のデータ分析基盤構築と改善
+### 大手ネット印刷・広告・運送企業のデータ分析基盤構築と自動化推進
 
 期間: 2022年9月 - 継続中(業務委託)
 
-事業の効率化を進めるためアナリティクスエンジニアとしてデータ分析基盤の整理、分析利用のための自動化を推し進めた。
+アナリティクスエンジニアとして事業の効率化を進めるためデータ分析基盤の整理、分析利用のための自動化を推し進めた。
 
 - データオーケストレーションツールとしてDagsterを導入し、データアナリストやデータサイエンティストに対してより効率的なデータの利活用を進められる基盤の整備を行なったデータドリブンな
   - Dagsterとの連携により、データ利用量や処理時間の可視化を強化、パイプラインを構築した
@@ -222,7 +241,7 @@ GCP | GCE / GAE / GKE(Kubernetes) / Cloud SQL / GCS / Dataflow / BigQuery / Data
   - DataCatalogを用いて、閲覧できるデータを部門毎に管理し全体として情報の秘匿性を向上した
   - データモデリングではDWHに加えてDDDの考えも取り入れ、責務の分担とテスト項目の細分化によるデータ品質向上を果たした。
 
-### 大手家電量販店におけるDX化推進
+### 大手家電量販店の会員情報移行・DX推進
 
 期間: 2022年10月 - 継続中(業務委託)
 
@@ -238,7 +257,7 @@ GCP | GCE / GAE / GKE(Kubernetes) / Cloud SQL / GCS / Dataflow / BigQuery / Data
   - Auto0による認証認可の仕組みと、支援した
 
 - データカタログを作成しビジネスメタデータの管理システムを構築
-  -
+  - aaa
 
 - Salesforce ServiceCloudとのシームレスなデータ連携のために、CDCシステムの構築とメタデータ管理システムを内製した。
 
