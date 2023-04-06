@@ -136,23 +136,23 @@
             <td rowspan="4"> Data Enginnering </td>
         </tr>
         <tr>
-            <td align="left"> データ処理 </td>
-            <td align="left">  Cloud Dataflow   </td>
+            <td align="left"> Data Orchestration </td>
+            <td align="left"> Dagster / Airflow   </td>
         </tr>
         <tr>
-             <td align="left"> ジョブ管理 </td>
-             <td align="left"> Digdag / Airflow / Cloud Composer / AWS Batch / Rundeck </td>
+             <td align="left"> Job Management System </td>
+             <td align="left"> Digdag / Cloud Composer / AWS Batch / Rundeck </td>
         </tr>
         <tr>
-             <td align="left"> データパイプライン </td>
-             <td align="left"> DBT / Dagster / Fivetran </td>
+             <td align="left"> Data Pipeline  & ETL Tools </td>
+             <td align="left"> DBT / Fivetran / Appflow </td>
         </tr>
         <tr>
             <td rowspan="4"> Data Analytics </td>
         </tr>
         <tr>
-            <td align="left"> マーケティングオートメーション </td>
-            <td align="left"> Salesforce CDP・MC / Marketo / Pardot / HeartCore  </td>
+            <td align="left"> Marketing Automation </td>
+            <td align="left"> Salesforce CDP・MC / Marketo / Pardot  </td>
         </tr>
         <tr>
              <td align="left"> BI </td>
@@ -160,34 +160,34 @@
         </tr>
         <tr>
              <td align="left"> Data Analysis Tools</td>
-             <td align="left"> Pandas, NumPy, Scikit-learn, TensorFlow </td>
+             <td align="left"> Pandas /  NumPy /  Scikit-learn / TensorFlow </td>
         </tr>
         <tr>
             <td align="left" width="10%"> Big Data Technologies </td>
             <td align="left" width="30%" colspan="2" > Amazon EMR (Hadoop/Spark) / Cloud Dataflow /  Treasure Data <br> Snowflake / BigQuery / RedShift </td>
         </tr>
         <tr>
-            <td align="left" width="10%"> データガバナンス</td>
-            <td align="left" width="30%" colspan="2" > 　Cloud Data Catalog / Apache Atras </td>
+            <td align="left" width="10%"> Data Governance </td>
+            <td align="left" width="30%" colspan="2" > Cloud Data Catalog / Apache Atras </td>
         </tr>
         <tr>
-            <td align="left" width="10%"> セキュリティ </td>
-            <td align="left" width="30%" colspan="2" > 　Cloud DLP / Cloud IAP / Cognito Auth0 </td>
+            <td align="left" width="10%"> Security & Authentication </td>
+            <td align="left" width="30%" colspan="2" > Cloud DLP / Cloud IAP / AWS Cognito / Auth0 / IAM / KMS / Stackdriver Logging / Stackdriver Monitoring / DataDog </td>
         </tr>
         <tr>
-            <td align="left" width="10%"> Version Control ・DevOps Tools・CI/CD </td>
-            <td align="left" width="30%" colspan="2" > 　Git, GitHub, Bitbucket <br>  Travis CI, CircleCI <br> Docker, Kubernetes, Ansible, Terraform</td>
+            <td align="left" width="10%"> Version Control & DevOps Tools & CI/CD </td>
+            <td align="left" width="30%" colspan="2" > Git / GitHub / Bitbucket <br>  Github Actions / CircleCI <br> Docker / Kubernetes / Terraform / CloudFormation / Ansible </td>
         </tr>
         <tr>
             <td rowspan="5"> Cloud Platforms </td>
         </tr>
         <tr>
             <td align="left"> AWS </td>
-            <td align="left"> VPC / S3 / Cloud Front / API Gateway / Lambda / ALB / ELB / EC2 / ECS / Fargate / Route53 / IAM / Cognito / Elasticsearch Service / RDS ( MySQL / PostgreSQL ) / Aurora / DynamoDB / ElastiCache (Redis) / Kinesis / Kinesis firehose / SageMaker / SQS / SNS / SES / Redshift / Redshift Spectrum / Amazon EMR ( Hadoop / Spark ) / Cloud Formation / Cloud Watch / AWS Batch / KMS / VPC Peering </td>
+            <td align="left"> Cloud Front / API Gateway / Lambda / ALB / ELB / EC2 / ECS  / Route53 /  Elasticsearch Service / RDS ( MySQL / PostgreSQL ) / Aurora / DynamoDB / ElastiCache (Redis) / SageMaker / SQS / SNS / SES  / Redshift Spectrum / Cloud Watch / AWS Batch / KMS / VPC Peering </td>
         </tr>
         <tr>
              <td align="left"> GCP </td>
-             <td align="left"> GCE / GAE / GKE(Kubernetes) / Cloud SQL / GCS / Dataflow / BigQuery / Datastore / Cloud Composer / FireStore / AI Platform / Cloud Pub/Sub / Cloud Functions / Cloud CDN / Cloud IAP / Cloud KMS / Cloud NAT / Cloud Build / Stackdriver Logging / Stackdriver Monitoring
+             <td align="left"> GCE / GAE / Cloud SQL / GCS / Datastore / FireStore / AI Platform / Cloud Pub/Sub / Cloud Functions / Cloud CDN
 </td>
         </tr>
     </tbody>
@@ -201,24 +201,26 @@
 
 アナリティクスエンジニアとして事業の効率化を進めるためデータ分析基盤の整理、分析利用のための自動化を推し進めた。
 
-#### 部門横断的なオーケストレーションの導入
+#### データオーケストレーションツールの導入
 
-- データオーケストレーションツールとしてDagsterを導入し、データアナリストやデータサイエンティストに対してより効率的なデータの利活用を進められる基盤の整備を行なったデータドリブンな
-  - Dagsterとの連携により、データ利用量や処理時間の可視化を強化、パイプラインを構築した
-  - dbtとの連携により、データリネージとメタデータもパイプライン上に組み込んで表現した
+データオーケストレーションツールとしてDagsterを導入し、データアナリストやデータサイエンティストに対して効率的にデータ利活用を進められる基盤を構築した
+
+- これまでに困難であった本番環境のデータを利用した部分的なテストやその確認をローカルなどアドホックな状況でもテスト可能にした
+- 柔軟なデータパイプラインの表現により、シリアル処理のボトルネックを減らし全体的に処理効率を向上し、また、プロセス毎の処理効率も可視化した
+- dbtとの連携により、視覚上・データリネージとメタデータもパイプライン上に組み込んで表現し、状況の一覧性を高めたs
 
 #### データオプス的な取り組み
 
-- 環境のリファクタをして、いろんな立場の人にとって使いやすい環境を提供した。って普通の話なので、具体的に。
-  - CI/CDを刷新し、データドリブンな貢献した
+- CI/CDとしてJenkinsを採用していたのですが、こちらをGithub Actionsに替えることによりマニュアル操作からトリガー操作にして作業コストを減らした
+- より具体的には、トリガー状況に命名規則とコードのmergeとリソースのデプロイを紐付け、
+- 命名規則やデータの整理、ドキュメントの整理などデータの取り扱いにおける規律を整備し、より広範にデータを取り扱う上でのルール構築に貢献した
   - dbtによる自動ドキュメント生成により、資料を一元管理しながらも、ステークホルダーに対してだけでなく読みやすいデータの資料をメタデータ合わせて随時最新の情報を提供できるようにした
-- 各部門がデータを見やすいようにビジネスデータやデータモデリングを刷新した
-  - DataCatalogを用いて、閲覧できるデータを部門毎に管理し全体として情報の秘匿性を向上した
-  - データモデリングではDWHに加えてDDDの考えも取り入れ、責務の分担とテスト項目の細分化によるデータ品質向上を果たした。
 
 #### データモデリングとデータガバナンス
 
-セキュリティ
+- データモデリングは一般的なDL・DWH・DMの関係に加え、社内状況を鑑みより状況に応じた柔軟なモデリング方式を採れた
+- データモデリングし直すことで、各部署間における責務の分担を明確にし直し、テスト項目をより細分化することを可能にしてデータ品質向上を果たした
+- BigQueryにテーブルにセキュリティタグを取り付け、情報の色分けをして関係部署が触れるデータを厳密に区分した
 
 ### 大手家電量販店の会員情報移行・DX推進
 
@@ -226,26 +228,27 @@
 
 大手家電量販店のDX化推進として、新旧顧客データの会員情報連携のための統合会員管理システムおよび認証・認可プラットフォームのシステム設計から開発まで担当した。
 具体的には、新旧顧客データのID統合・マイグレーションにおけるデータ設計と、データ集約基盤のシステム設計開発、ビジネスメタデータのデータカタログ設計、開発を担当した。
-
-#### 統合基盤の設計と開発
-
-- データ統合基盤の設計と開発を担当した
 顧客情報のCRUD操作を行うCMSサーバと、その情報をSalesforce Service Cloudと連携し、これまでの顧客情報の統合管理を総合的にVUPする。
 情報を異なるプラットフォーム間でシームレスに連携するために、AWSのCDC機能を含めたインフラ構築でどうにかする
 さらにこれらの情報を分析利用、データガバナンスを果たすための環境を構築した。
 
-  開発
-  - CMSサーバとAuth0の外部APIを連携させ認証・認可の仕組みとAPI Gateway + Lambda + RDS Proxy のCRUD構成を構築
-  - 顧客情報をSalesforce Service Cloudに連携するため、Appflowを用いてAuroraとSalesforce間をAWS DMSでシームレスな連携を果たした
-  - Salesforceを用いない分析については、Athena環境を利用できる環境を構築した
-  - データガバナンスのためにメタデータ管理できる環境としてApache Atlas環境の検証
+#### 統合基盤の設計と開発
 
-#### 保守・
+- CMSサーバとAuth0の外部APIを連携させCustom Databaseと認証・認可の仕組みをAPI Gatewayと連携させて構築した
+- CMSサーバとAPI Gateway + Lambda + RDS Proxy のCRUD構成を構築した
+- 顧客情報をSalesforce Service Cloudに連携するため、Appflowを用いてAuroraとSalesforce間をAWS DMSでシームレスな連携を果たした
 
-  保守
+#### 保守・管理
 
-- 統合データ基盤を構成するために必要なシステムはCloudFormationにより構築し、構成の一元的な管理と運用保守に関しての方針とドキュメントを整備した
-- 複数のチームによるCI/CDがまわるようにルールを整備したwikiを整備し、資料を一元管理した
+- 開発管理としてカンバン方式を採用するための根回しと、DevOpsによる開発をするにあたってルールの整備をした
+- 複数のチームによるCI/CDがまわるように開発ルールを整備したwikiを整備した(上との言い回しを区別したい)
+- 統合データ基盤の構成はCloudFormationにより構築し、構成の一元的な管理と運用保守に関しての方針とドキュメントを整備した
+
+#### データマネジメント
+
+- Salesforceを用いない分析については、Athena環境を利用できる環境を構築した
+- データガバナンスのためにメタデータ管理できる環境としてApache Atlas環境の検証
+- データ構造を作った
 
 ## 直近で関わった開発案件
 
