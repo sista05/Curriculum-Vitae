@@ -112,7 +112,7 @@
 それを経営層、データアナリスト、データサイエンティストなどの各ステークホルダーに対して適切な形で届けるためのデータ分析基盤の構築、
 分析、経営指標を表現するBI環境の構築といった、企業全体のためのデータオーケストレーションを提供いたします。
 
-技術面ではCI/CDやデータ処理コードのモジュール化といった自動化、テストの導入、コンポーネント化による保守性・効率性の向上
+技術面ではCI/CDやデータ処理コードのモジュール化といった、自動化・テストの導入・コンポーネント化による保守性・効率性の向上
 一方で、データマネジメントとしてドキュメントやメタデータ、データカタログの整備を行い、データ利用者環境を充実させます。
 
 秘匿情報やセンシティブデータの取り扱いに一定の基準を適用し、ゼロトラストの観点から企業の情報資産を保護します。
@@ -155,7 +155,7 @@
             <td align="left"> Salesforce CDP・MC / Marketo / Pardot  </td>
         </tr>
         <tr>
-             <td align="left"> BI </td>
+             <td align="left"> BI Tools</td>
              <td align="left"> Looker / Tableau / GoodData / Data Studio / Metabase / Re:dash </td>
         </tr>
         <tr>
@@ -172,10 +172,10 @@
         </tr>
         <tr>
             <td align="left" width="10%"> Security & Authentication </td>
-            <td align="left" width="30%" colspan="2" > Cloud DLP / Cloud IAP / AWS Cognito / Auth0 / IAM / KMS / Stackdriver Logging / Stackdriver Monitoring / DataDog </td>
+            <td align="left" width="30%" colspan="2" > Cloud DLP / Cloud Data Catalog / Cloud IAP / AWS Cognito / Auth0 / IAM / KMS / Stackdriver Logging / Stackdriver Monitoring / DataDog </td>
         </tr>
         <tr>
-            <td align="left" width="10%"> Version Control & DevOps Tools & CI/CD </td>
+            <td align="left" width="10%"> DevOps & DataOps Tools </td>
             <td align="left" width="30%" colspan="2" > Git / GitHub / Bitbucket <br>  Github Actions / CircleCI <br> Docker / Kubernetes / Terraform / CloudFormation / Ansible </td>
         </tr>
         <tr>
@@ -183,7 +183,7 @@
         </tr>
         <tr>
             <td align="left"> AWS </td>
-            <td align="left"> Cloud Front / API Gateway / Lambda / ALB / ELB / EC2 / ECS  / Route53 /  Elasticsearch Service / RDS ( MySQL / PostgreSQL ) / Aurora / DynamoDB / ElastiCache (Redis) / SageMaker / SQS / SNS / SES  / Redshift Spectrum / Cloud Watch / AWS Batch / KMS / VPC Peering </td>
+            <td align="left"> Cloud Front / API Gateway / Lambda / ALB / ELB / EC2 / ECS  / Route53 /  Elasticsearch Service / RDS ( MySQL / PostgreSQL ) / Aurora / DynamoDB / ElastiCache (Redis) / SageMaker / SQS / SNS / SES  / Redshift Spectrum / Cloud Watch / VPC Peering </td>
         </tr>
         <tr>
              <td align="left"> GCP </td>
@@ -199,7 +199,8 @@
 
 期間: 2022年9月 - 継続中(業務委託)
 
-アナリティクスエンジニアとして事業の効率化を進めるためデータ分析基盤の整理、分析利用のための自動化を推し進めた。
+新規データパイプラインツールの導入し、分析利用のための自動化など
+全社的なデータオーケストレーションを提供した。
 
 #### データオーケストレーションツールの導入
 
@@ -211,16 +212,19 @@
 
 #### データオプス的な取り組み
 
-- CI/CDとしてJenkinsを採用していたのですが、こちらをGithub Actionsに替えることによりマニュアル操作からトリガー操作にして作業コストを減らした
-- より具体的には、トリガー状況に命名規則とコードのmergeとリソースのデプロイを紐付け、
-- 命名規則やデータの整理、ドキュメントの整理などデータの取り扱いにおける規律を整備し、より広範にデータを取り扱う上でのルール構築に貢献した
-  - dbtによる自動ドキュメント生成により、資料を一元管理しながらも、ステークホルダーに対してだけでなく読みやすいデータの資料をメタデータ合わせて随時最新の情報を提供できるようにした
+データの再整理と、データ利用者へのオープンなマニュアル整備と、デプロイフローの自動化を進めた
 
-#### データモデリングとデータガバナンス
+- CI/CDツールとしてJenkinsからGithub Actionsに替えることによりマニュアル操作からトリガー操作にして作業コストを減らした
+- ブランチの命名規則、プルリクエストとコードのmergeとリソースのデプロイを紐付けなど、ルールを整備した
+- dbtにより生成されるドキュメントを社内で閲覧可能にし、データカラムの情報を公開、また、アドホッククエリも展開することにより各部署における分析にも役立てた
 
-- データモデリングは一般的なDL・DWH・DMの関係に加え、社内状況を鑑みより状況に応じた柔軟なモデリング方式を採れた
-- データモデリングし直すことで、各部署間における責務の分担を明確にし直し、テスト項目をより細分化することを可能にしてデータ品質向上を果たした
-- BigQueryにテーブルにセキュリティタグを取り付け、情報の色分けをして関係部署が触れるデータを厳密に区分した
+#### データモデリングとデータガバナンスの刷新
+
+製品情報のテーブル構造を再整理し、情報利用の効率化とデータ品質向上に貢献した
+
+- 一般的なDL・DWH・DMの構造に加えDBTで推奨されているモデリングの考えを取り入れ、社内状況を鑑みより状況に応じた柔軟なモデリング方式を採れた
+- テーブルの構造を再整備し、各部署間における責務の分担を明確化、テスト項目をより細分化することを可能としデータ品質向上に貢献した
+- データテーブルの保護方針の検証と、データカタログによるセキュリティタグ機能で関係部署が閲覧可能なデータを厳密に区分した
 
 ### 大手家電量販店の会員情報移行・DX推進
 
@@ -234,17 +238,23 @@
 
 #### 統合基盤の設計と開発
 
-- CMSサーバとAuth0の外部APIを連携させCustom Databaseと認証・認可の仕組みをAPI Gatewayと連携させて構築した
-- CMSサーバとAPI Gateway + Lambda + RDS Proxy のCRUD構成を構築した
-- 顧客情報をSalesforce Service Cloudに連携するため、Appflowを用いてAuroraとSalesforce間をAWS DMSでシームレスな連携を果たした
+顧客情報を全面的に刷新し新旧環境間におけるマイグレーションと、Salesforceとの有機的な連携を実現するための環境を構築した
+
+- 顧客情報のCRUD操作を行うCMSサーバとAuth0の外部APIを連携させCustom DatabaseとAPI Gatewayと連携させて認証・認可の仕組みを構築した
+- ReactベースのCMSサーバ開発と、API Gateway + Lambda + RDS Proxy によるCRUD構成を構築した
+- 旧環境の顧客情報を移行するためにauth0の統一IDを発行し、新旧環境で齟齬なく移行可能な仕組みを構築した
 
 #### 保守・管理
 
-- 開発管理としてカンバン方式を採用するための根回しと、DevOpsによる開発をするにあたってルールの整備をした
+IaCによる環境情報の一元管理と、プロジェクトマネジメントにも部分的に協力した
+
+- 開発管理としてBacklogの提案と、DevOpsによる開発をするにあたってルールの整備をした
 - 複数のチームによるCI/CDがまわるように開発ルールを整備したwikiを整備した(上との言い回しを区別したい)
 - 統合データ基盤の構成はCloudFormationにより構築し、構成の一元的な管理と運用保守に関しての方針とドキュメントを整備した
 
-#### データマネジメント
+#### データマネジメントとデータガバナンス環境の構築
+
+Salesforceだけでは実現不能な分析のために、Athenaなどを用いたデータ分析のための環境とデータを統合管理するためのメタデータ
 
 - Salesforceを用いない分析については、Athena環境を利用できる環境を構築した
 - データガバナンスのためにメタデータ管理できる環境としてApache Atlas環境の検証
