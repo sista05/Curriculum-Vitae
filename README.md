@@ -92,8 +92,8 @@
 - [スキル](#スキル)
 - [現在継続中の開発案件](#現在継続中の開発案件)
   - [大手ネット印刷・広告・運送企業のデータ分析基盤構築と自動化推進](#大手ネット印刷広告運送企業のデータ分析基盤構築と自動化推進)
-  - [大手家電量販店の会員情報移行・DX推進](#大手家電量販店の会員情報移行DX推進)
 - [直近で関わった開発案件](#直近で関わった開発案件)
+  - [大手家電量販店の会員情報移行・DX推進](#大手家電量販店の会員情報移行DX推進)
   - [ECサイトのCRM環境(Salesforce CDP・MC)構築](#ecサイトのcrm環境salesforce-cdpmc構築)
   - [顧客獲得プロセス可視化サイト構築・売り上げ拡大施策貢献](#顧客獲得プロセス可視化サイト構築売り上げ拡大施策貢献)
 - [過去に関わった開発案件](#過去に関わった開発案件)
@@ -179,7 +179,7 @@
         </tr>
         <tr>
             <td align="left"> AWS </td>
-            <td align="left"> Cloud Front / API Gateway / Lambda / ALB / ELB / EC2 / ECS  / Route53 /  Elasticsearch Service / RDS ( MySQL / PostgreSQL ) / Aurora / DynamoDB / ElastiCache (Redis) / SageMaker / SQS / SNS / SES  / Redshift Spectrum / Cloud Watch / VPC Peering </td>
+            <td align="left"> Cloud Front / API Gateway / Lambda / ALB / ELB / EC2 / ECS  / Route53 /  Elasticsearch Service / RDS ( MySQL / PostgreSQL ) / Aurora / DynamoDB / ElastiCache (Redis) / SageMaker / SQS / SNS / SES  / Redshift Spectrum / Cloud Watch / VPC Peering / Amazon DMS </td>
         </tr>
         <tr>
              <td align="left"> GCP </td>
@@ -221,6 +221,8 @@
 - テーブル構造を再整備し、各部署間における職責の明確化やテスト項目の詳細化によりデータ品質向上に貢献した
 - データテーブル保護方針の策定に貢献し、データカタログによるセキュリティタグ機能を用いて閲覧可能なデータを部署間で厳密に区分した
 
+## 直近で関わった開発案件
+
 ### 大手家電量販店の会員情報移行・DX推進
 
 期間: 2022年10月 - 2023年4月(業務委託)
@@ -254,9 +256,7 @@ Salesforceとの相補的な分析のために、Athenaなどを用いたデー�
 - 顧客情報のデータ構造の見直しと、データ間の関係性や重要度、セキュリティ情報といったメタデータ設計を行った
 - ビジネスサイドのメタデータ管理としてApache Atlas環境を検証。データ分類、データライフサイクル、コンプライアンス用途の設計を担当した
 
-## 直近で関わった開発案件
-
-### ECサイトのSalesforce CDP・MC 環境構築
+### ECサイトのCRM環境(Salesforce CDP・MC)構築
 
 期間: 2022年3月 - 2022年9月(業務委託)
 
