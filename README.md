@@ -14,7 +14,7 @@
         <tr>
             <td align="left" width="10%">Name</td>
             <td align="left" width="50%"> Akira Iwasaki </td>
-            <td rowspan=6 > <img src="img/img.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td rowspan=6 > <img src="img/iwasaki.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
         </tr>
         <tr>
             <td align="left" >Location</td>
@@ -51,9 +51,7 @@
     <tbody>
         <tr>
             <td align="left"><img src="img/Twitter.png" width="16"> Twitter</td>
-            <td align="left"> <a href="https://twitter.com/sista05"> Twitter
-            <br><a href="https://twitter.com/d8amkt"> (DataMarket公式Twitter)
-            </td>
+            <td align="left"> <a href="https://twitter.com/sista05"> Twitter</td>
         </tr>
         <tr>
             <td align="left"><img src="img/LinkedIn.png" width="16"> LinkedIn</td>
@@ -76,12 +74,16 @@
             <td align="left"><a href="https://medium.com/@akisista05"> https://medium.com/@akisista05</td>
         </tr>
         <tr>
-            <td align="left"><img src="img/youtrust.jpeg" width="16"> YouTrust</td>
+            <td align="left"><img src="img/youtrust.jpeg" width="16"> YOUTRUST</td>
             <td align="left"><a href="https://youtrust.jp/users/datamarket"> https://youtrust.jp/users/datamarket</td>
         </tr>
         <tr>
             <td align="left"><img src="img/facebook.png" width="16"> Facebook</td>
             <td align="left"> <a href="https://facebook.com/akisista05">Akira Iwasaki</td>
+        </tr>
+        <tr>
+            <td align="left"><img src="img/wantedly.png" width="16"> Facebook</td>
+            <td align="left"> <a href="https://www.wantedly.com/id/iwasaki_akira">Akira Iwasaki</td>
         </tr>
     </tbody>
 </table>
@@ -105,19 +107,9 @@
 
 ## 自己紹介
 
-都内でアナリティクスエンジニアとして活動しています。<br>
-企業の部門で取り扱うデータを企業全体で共有し、利用技術を刷新してデータ分析の効率化を図り、BIを整備しデータを起点とした意思決定に役立てる仕事をしています。
-
-具体的には、部門間で所持する情報リソースを一元管理するためのデータパイプラインの構築と、
-経営層、データアナリスト、データサイエンティストなどの各ステークホルダーに対して適切な形で届けるためのデータ分析基盤の構築、
-および分析、経営指標を表現するBI環境の構築といった、企業全体のためのデータオーケストレーションを提供いたします。
-
-技術面では、CI/CDやデータ処理コードのモジュール化といった、自動化・テストの導入・コンポーネント化による保守性・効率性の向上に取り組み、
-一方で、データマネジメントとしてドキュメントやメタデータ、データカタログの整備を行い、データ利用者環境を充実させます。
-
-データガバナンスとして、上に挙げたようなデータ保護方針の作成サポートと、秘匿情報やセンシティブデータの取り扱いに一定の基準を適用し、ゼロトラストの観点から企業の情報資産を保護します。
-
-以上、全体的なデータ利活用の方針として、企業のデータ活用成熟度アセスメントに従いデータやチームの性質に沿った形で最適な活用手段を提供いたします。
+データエンジニア・データアナリスト。
+主にエンタープライズのデータオーケストレーションやデータモデリングなどを中心に仕事をしています。
+詳細は会社のHPや記事などを参照してください。
 
 ## スキル
 
@@ -191,6 +183,33 @@
 
 ## 現在継続中の開発案件
 
+```mermaid
+gantt
+    title 活動期間
+    dateFormat YYYY-MM-DD
+    section Chatwork
+        Dagster         :a1, 2023-09-01, 90d
+        dbt data modeling   :after a1, 30d
+
+    section raksul
+        Task in Another :2022-11-01, 240d
+        another task    :24d
+
+```
+
+### 中小企業向けビジネスチャットアプリのデータ分析基盤構築
+
+期間: 2023年9月 - 継続中(業務委託)
+
+Chatworkのデータ分析基盤をdbt CloudからDagsterに移行しました。
+目的は、一言で言うとデータ変換処理パイプラインの複雑性と多重度に対応するためです。
+
+複数の部署のデータを横断的に収集・変換するために、部署毎で異なるデータ様式を用いている環境においてはDagsterの柔軟性とモジュール独立性の高い性質が求められ、さらには今後のスケールアップも見据えた採用となりました。
+
+
+関連の記事を掲載しているのでよろしければご覧ください。
+https://creators-note.chatwork.com/entry/2023/12/20/100247
+
 ### 大手ネット印刷・広告・運送企業のデータ分析基盤構築と自動化推進
 
 期間: 2022年9月 - 継続中(業務委託)
@@ -222,6 +241,20 @@
 - データテーブル保護方針の策定に貢献し、データカタログによるセキュリティタグ機能を用いて閲覧可能なデータを部署間で厳密に区分した
 
 ## 直近で関わった開発案件
+
+```mermaid
+gantt
+    title 過去の活動
+    dateFormat YYYY-MM-DD
+    section 大手家電量販店の会員情報移行・DX推進
+        Task in Another :2021-11-01, 240d
+        another task    :24d
+
+    section ECサイトのCRM環境(Salesforce CDP・MC)構築
+        Task in Another :2020-11-01, 240d
+        another task    :24d
+
+```
 
 ### 大手家電量販店の会員情報移行・DX推進
 
