@@ -34,7 +34,10 @@
         </tr>
         <tr>
             <td align="left">Media</td>
-            <td align="left"><a href="https://forkwell.connpass.com/event/189259">Data Engineering Study #4<br>「データ分析基盤の障害対応事例LT祭り」等</td>
+            <td align="left"><a href="https://forkwell.connpass.com/event/189259">Data Engineering Study #4<br>「データ分析基盤の障害対応事例LT祭り」</a><br>
+            <a href="https://forkwell.connpass.com/event/310011/">Data Engineering Study #23<br>「Data orchestration 特集」</a><br>
+            その他、在籍した企業での記事などは経歴の詳細にも併記
+            </td>
         </tr>
     </tbody>
 </table>
@@ -82,8 +85,12 @@
             <td align="left"> <a href="https://facebook.com/akisista05">Akira Iwasaki</td>
         </tr>
         <tr>
-            <td align="left"><img src="img/wantedly.png" width="16"> Facebook</td>
+            <td align="left"><img src="img/wantedly.png" width="16"> Wantedly</td>
             <td align="left"> <a href="https://www.wantedly.com/id/iwasaki_akira">Akira Iwasaki</td>
+        </tr>
+        <tr>
+            <td align="left"><img src="img/docswell.png" width="16"> Docswell</td>
+            <td align="left"> <a href="https://www.docswell.com/user/4881792">Akira Iwasaki</td>
         </tr>
     </tbody>
 </table>
@@ -181,7 +188,7 @@
     </tbody>
 </table>
 
-## 現在継続中の開発案件
+## 継続中の開発案件
 
 ```mermaid
 gantt
@@ -212,7 +219,7 @@ https://creators-note.chatwork.com/entry/2023/12/20/100247
 
 ### 大手ネット印刷・広告・運送企業のデータ分析基盤構築と自動化推進
 
-期間: 2022年9月 - 継続中(業務委託)
+期間: 2022年9月 - 2024年4月(業務委託)
 
 部門横断的なデータETLを実現するパイプラインツール、およびデータ分析利用に関わる各種自動化環境を提供し、全社的なデータオーケストレーションを推進した。
 
@@ -253,6 +260,8 @@ gantt
     section ECサイトのCRM環境(Salesforce CDP・MC)構築
         Task in Another :2020-11-01, 240d
         another task    :24d
+
+
 
 ```
 
