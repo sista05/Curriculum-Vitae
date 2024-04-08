@@ -14,7 +14,7 @@
         <tr>
             <td align="left" width="10%">Name</td>
             <td align="left" width="50%"> Akira Iwasaki </td>
-            <td rowspan=6 > <img src="img/img.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td rowspan=6 > <img src="img/iwasaki.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
         </tr>
         <tr>
             <td align="left" >Location</td>
@@ -34,7 +34,10 @@
         </tr>
         <tr>
             <td align="left">Media</td>
-            <td align="left"><a href="https://forkwell.connpass.com/event/189259">Data Engineering Study #4<br>「データ分析基盤の障害対応事例LT祭り」等</td>
+            <td align="left"><a href="https://forkwell.connpass.com/event/189259">Data Engineering Study #4<br>「データ分析基盤の障害対応事例LT祭り」</a><br>
+            <a href="https://forkwell.connpass.com/event/310011/">Data Engineering Study #23<br>「Data orchestration 特集」</a><br>
+            等
+            </td>
         </tr>
     </tbody>
 </table>
@@ -51,9 +54,7 @@
     <tbody>
         <tr>
             <td align="left"><img src="img/Twitter.png" width="16"> Twitter</td>
-            <td align="left"> <a href="https://twitter.com/sista05"> Twitter
-            <br><a href="https://twitter.com/d8amkt"> (DataMarket公式Twitter)
-            </td>
+            <td align="left"> <a href="https://twitter.com/sista05"> Twitter</td>
         </tr>
         <tr>
             <td align="left"><img src="img/LinkedIn.png" width="16"> LinkedIn</td>
@@ -76,12 +77,20 @@
             <td align="left"><a href="https://medium.com/@akisista05"> https://medium.com/@akisista05</td>
         </tr>
         <tr>
-            <td align="left"><img src="img/youtrust.jpeg" width="16"> YouTrust</td>
+            <td align="left"><img src="img/youtrust.jpeg" width="16"> YOUTRUST</td>
             <td align="left"><a href="https://youtrust.jp/users/datamarket"> https://youtrust.jp/users/datamarket</td>
         </tr>
         <tr>
             <td align="left"><img src="img/facebook.png" width="16"> Facebook</td>
             <td align="left"> <a href="https://facebook.com/akisista05">Akira Iwasaki</td>
+        </tr>
+        <tr>
+            <td align="left"><img src="img/wantedly.png" width="16"> Wantedly</td>
+            <td align="left"> <a href="https://www.wantedly.com/id/iwasaki_akira">Akira Iwasaki</td>
+        </tr>
+        <tr>
+            <td align="left"><img src="img/docswell.png" width="16"> Docswell</td>
+            <td align="left"> <a href="https://www.docswell.com/user/4881792">Akira Iwasaki</td>
         </tr>
     </tbody>
 </table>
@@ -90,36 +99,30 @@
 
 - [自己紹介](#自己紹介)
 - [スキル](#スキル)
-- [現在継続中の開発案件](#現在継続中の開発案件)
-  - [大手ネット印刷・広告・運送企業のデータ分析基盤構築と自動化推進](#大手ネット印刷広告運送企業のデータ分析基盤構築と自動化推進)
-- [直近で関わった開発案件](#直近で関わった開発案件)
-  - [大手家電量販店の会員情報移行・DX推進](#大手家電量販店の会員情報移行DX推進)
-  - [ECサイトのCRM環境(Salesforce CDP・MC)構築](#ecサイトのcrm環境salesforce-cdpmc構築)
-  - [顧客獲得プロセス可視化サイト構築・売り上げ拡大施策貢献](#顧客獲得プロセス可視化サイト構築売り上げ拡大施策貢献)
+- [活動期間一覧](#活動期間一覧)
+- [継続中の開発案件](#継続中の開発案件)
+  - [中小企業向けビジネスチャットアプリ (Chatwork株式会社 様)](#中小企業向けビジネスチャットアプリChatwork株式会社-様)
+  - [大手ネット印刷・広告・運送企業 (ラクスル株式会社 様)](#大手ネット印刷広告運送企業ラクスル株式会社-様)
 - [過去に関わった開発案件](#過去に関わった開発案件)
-  - [大規模視聴データの移行支援](#大規模視聴データの移行支援)
-  - [リーガルテック企業の分析基盤構築](#リーガルテック企業の分析基盤構築)
-  - [大手美容サイト](#大手美容サイト)
+  - [大手家電量販店の会員情報移行・DX推進 (U社)](#大手家電量販店の会員情報移行DX推進U社)
+  - [ECサイトのCRM環境(Salesforce CDP・MC)構築 (U社)](#ecサイトのcrm環境salesforce-cdpmc構築U社)
+  - [顧客獲得プロセス可視化サイト構築、広告戦略・分析 (C社)](#顧客獲得プロセス可視化サイト構築広告戦略分析C社)
+  - [大規模視聴データの移行支援 (S社)](#大規模視聴データの移行支援S社)
+  - [リーガルテック企業の分析基盤構築 (L社)](#リーガルテック企業の分析基盤構築L社)
+  - [大手美容サイトデータ基盤構築 (R社)](#大手美容サイトデータ基盤構築R社)
   - [旅行代理店の新規顧客管理システム](#旅行代理店の新規顧客管理システム)
   - [モビリティ事業](#モビリティ事業)
 
 ## 自己紹介
 
-都内でアナリティクスエンジニアとして活動しています。<br>
-企業の部門で取り扱うデータを企業全体で共有し、利用技術を刷新してデータ分析の効率化を図り、BIを整備しデータを起点とした意思決定に役立てる仕事をしています。
+データエンジニア・データアナリスト。
+主にエンタープライズのデータオーケストレーションやデータモデリングなどを中心に仕事をしています。
+詳細は会社HPや記事などをご覧ください。
 
-具体的には、部門間で所持する情報リソースを一元管理するためのデータパイプラインの構築と、
-経営層、データアナリスト、データサイエンティストなどの各ステークホルダーに対して適切な形で届けるためのデータ分析基盤の構築、
-および分析、経営指標を表現するBI環境の構築といった、企業全体のためのデータオーケストレーションを提供いたします。
+## スキル一覧
 
-技術面では、CI/CDやデータ処理コードのモジュール化といった、自動化・テストの導入・コンポーネント化による保守性・効率性の向上に取り組み、
-一方で、データマネジメントとしてドキュメントやメタデータ、データカタログの整備を行い、データ利用者環境を充実させます。
-
-データガバナンスとして、上に挙げたようなデータ保護方針の作成サポートと、秘匿情報やセンシティブデータの取り扱いに一定の基準を適用し、ゼロトラストの観点から企業の情報資産を保護します。
-
-以上、全体的なデータ利活用の方針として、企業のデータ活用成熟度アセスメントに従いデータやチームの性質に沿った形で最適な活用手段を提供いたします。
-
-## スキル
+<details>
+<summary>スキル表</summary>
 
 <table class="main_table">
     <thead>
@@ -189,17 +192,73 @@
     </tbody>
 </table>
 
-## 現在継続中の開発案件
+</details>
 
-### 大手ネット印刷・広告・運送企業のデータ分析基盤構築と自動化推進
+## 活動期間一覧
 
-期間: 2022年9月 - 継続中(業務委託)
+> [!NOTE]
+> 公開許可を得ている企業様は名称を出しています
+
+```mermaid
+gantt
+    title 活動概要
+    todayMarker off
+    section Chatwork
+        Dagster導入  :2023-09-01, 270d
+
+    section raksul
+        Dagster導入 : 2022-09-01, 300d
+        データ利活用効率化推進 : 2023-07-01, 300d
+        データモデリング対応等 : 2023-07-01, 300d
+    section U社
+        家電量販店 : 2022-10-01, 210d
+        ECサイトCRM環境構築 : 2022-03-01, 270d
+
+    section C社
+        顧客獲得プロセス可視化サイト構築 :2021-07-01, 400d
+
+    section S社
+        データ移行 :2021-07-01, 150d
+
+    section L社
+        リーガルテック企業の分析基盤構築 :2020-04-01, 460d
+
+    section R社
+        大手美容サイト : 2019-08-01, 240d
+
+    section L社 
+        travel : 2019-03-01, 120d
+
+    section R社 
+        mobility : 2018-12-01, 90d
+
+
+```
+
+## 継続中の開発案件
+
+### 中小企業向けビジネスチャットアプリ (Chatwork株式会社 様)
+
+期間: 2023年9月 - 2024年5月(業務委託)
+
+#### dbt CloudからDagsterへの移行対応
+
+データ変換処理パイプラインの複雑性と多重度、スケールアップに対応するためデータ分析基盤にDagsterを導入した。([関連記事](https://creators-note.chatwork.com/entry/2023/12/20/100247))
+
+- dbt Cloudの移行先としてDagster環境をAWSにterraformで構築した。その他、CI/CDや処理の自動化、環境コスト削減施策を導入した
+- dbtで顧客データのモデル作成、singular/unitテストやdbt elementary導入によるデータ品質改善施策を採用した
+- terraformでsnowflakeでのデータマスキング処理を適用など対応した
+
+----------
+### 大手ネット印刷・広告・運送企業 (ラクスル株式会社 様)
+
+期間: 2022年9月 - 2024年4月(業務委託)
 
 部門横断的なデータETLを実現するパイプラインツール、およびデータ分析利用に関わる各種自動化環境を提供し、全社的なデータオーケストレーションを推進した。
 
-#### データオーケストレーションツールの導入
+#### データオーケストレーションツールDagsterの導入
 
-データオーケストレーションツールとしてDagsterを導入し、データアナリストやデータサイエンティストに対して効率的にデータ利活用を進められる基盤を構築した
+データオーケストレーションツールとしてDagsterを導入し、データアナリストやデータサイエンティストに対して効率的にデータ利活用を進められる基盤を構築した([関連記事](https://techblog.raksul.com/entry/2022/12/02/101007))
 
 - 従来困難であった 本番環境を含めた各種環境における部分的なデータを流用したテストを実現可能とし、作業の効率化と品質の向上を果たした
 - 柔軟なデータパイプラインの表現により、シリアル処理をパラレル構造に変更してボトルネックを減らし、全体的に処理効率を改善した
@@ -213,17 +272,17 @@
 - ブランチ命名規則、プルリクエストルール整備、コードのmerge、リソースのデプロイ紐付けなど、開発ルールを整備した
 - テーブル情報をドキュメント化し社内閲覧可能にし、データ情報や同時にアドホッククエリも展開し、各部署での分析作業に貢献した
 
-#### データモデリングとデータガバナンスの刷新
+#### データモデリング、データガバナンス対応
 
-製品や売り上げ情報などのテーブル構造を再整理し、情報利用の効率化とデータ品質向上に貢献した
+EC情報や人事情報などのデータテーブルを整理し、情報利用の効率化とデータ品質向上に貢献した
 
-- 一般的な三層構造の考え方に加え、dbtで推奨されているstagingと呼ばれる考え方を取り入れたり等、社内状況を鑑み状況に応じた柔軟なデータモデリング方式を採用した
-- テーブル構造を再整備し、各部署間における職責の明確化やテスト項目の詳細化によりデータ品質向上に貢献した
-- データテーブル保護方針の策定に貢献し、データカタログによるセキュリティタグ機能を用いて閲覧可能なデータを部署間で厳密に区分した
+- dbtのベストプラクティスに沿ったstaging/intermediate/martに分け、dbt evaluatorなどベストプラクティスを適用しテーブル構造を整理した
+- 品質向上施策として、pk/fkテスト、sqlfluffの自動化、elementary、Data Catalogやdbt docsなどへのメタデータ反映など対応した
+- ポリシータグを導入して、グループ、部署間での列レベルのアクセス制御を適用した
 
-## 直近で関わった開発案件
+## 過去に関わった開発案件
 
-### 大手家電量販店の会員情報移行・DX推進
+### 大手家電量販店の会員情報移行・DX推進 (U社)
 
 期間: 2022年10月 - 2023年4月(業務委託)
 
@@ -256,7 +315,7 @@ Salesforceとの相補的な分析のために、Athenaなどを用いたデー�
 - 顧客情報のデータ構造の見直しと、データ間の関係性や重要度、セキュリティ情報といったメタデータ設計を行った
 - ビジネスサイドのメタデータ管理としてApache Atlas環境を検証。データ分類、データライフサイクル、コンプライアンス用途の設計を担当した
 
-### ECサイトのCRM環境(Salesforce CDP・MC)構築
+### ECサイトのCRM環境(Salesforce CDP・MC)構築 (U社)
 
 期間: 2022年3月 - 2022年9月(業務委託)
 
@@ -288,7 +347,8 @@ Salesforce CDPのシステム運用設計における要件定義を担当。ま
 - Tableau OnlineのSalesforce CDPデータや、AWS Athenaと連携したシステム環境構築を担当した
 - 一部旧システムからのデータ移行に伴い、抽出データや定義情報のバリデーションチェックやデータインポート後のデータ突合確認などデータ整合性の向上に勤めた
 
-### 顧客獲得プロセス可視化サイト構築・売り上げ拡大施策支援
+----------
+### 顧客獲得プロセス可視化サイト構築、広告戦略・分析 (C社)
 
 期間: 2021年7月 - 2022年7月(業務委託)
 
@@ -311,17 +371,16 @@ Salesforce・Marketo・Google Analyticsのデータを統合した独自のイ�
 - TerraformによるInfrastructure as Codeやgitlab runnerによるCI/CDで構成管理と継続的デリバリーを提供した
 - dbt Cloudのドキュメント機能などを自動でクラウドに保存するように、自動でドキュメンテーションを拡充、保守する仕組みを構築した
 
-#### グロースハック(グロースマーケティング)への寄与
+#### 広告戦略・グロースのためのデータ分析
 
-新製品のBIプロダクトのPdMとして売り上げ拡大に貢献するために、グロースハック手法を導入した。
+新製品のBIプロダクトのPdMとして売り上げ拡大に貢献するためのカスタマージャーニーマップ作成や、グロースのための施策としてプロダクトとのフィードバックループを作成した
 
 - ファネルとコホートを強く意識した分析を行い、事業解像度を上げることに注力した
 - 分析手法導入にあたってはデータのサイロ化、データガバナンスなどのデータ基盤の根本となるところから整理し、導入における基礎を築くのに貢献した
 - 分析手法実現の背景には可視化ソリューションでも利用したSnowflakeやFivetran、dbtなどのモダンなETLツールの導入を役立てることができた
 
-## 過去に関わった開発案件
-
-### 大規模視聴データの移行支援
+----------
+### 大規模視聴データの移行支援 (S社)
 
 期間: 2021年7月 - 2021年11月(業務委託)
 
@@ -332,7 +391,8 @@ Treasure DataのTD関数とBigQueryの互換性調査や対応、汎用モジュ
 - コスト削減のために最適な処理の置き換えや、Treasure DataとDigdagで共通利用可能な汎用モジュールなども構築した
 - テストケース作成や異常時の通知設計、移植後のデータ整合性チェックなどの詳細の確認も行った
 
-### リーガルテック企業の分析基盤構築
+----------
+### リーガルテック企業の分析基盤構築 (L社)
 
 期間: 2020年4月 - 2021年6月(業務委託)
 
@@ -385,7 +445,8 @@ Treasure DataのTD関数とBigQueryの互換性調査や対応、汎用モジュ
 - ビジネス要件の理解と分析、予測モデルの構築、実験の設計、仮説の検証、統計結果
 - RCT/DIDなどの基礎的な効果検証実験
 
-### 大手美容サイト
+----------
+### 大手美容サイトデータ基盤構築 (R社)
 
 期間: 2019年8月 - 2020年3月(業務委託)
 
@@ -397,9 +458,10 @@ Treasure DataのTD関数とBigQueryの互換性調査や対応、汎用モジュ
 
 ・CI/CDパイプラインとして、AutoScaleも含めたEC2デプロイ方式を設計、構築を担当。Terraform、EC2 Image Builder、Jenkinsによるシェル実行などでそれぞれシステムのレイヤーに適したデプロイ方式を提供した。
 
-### 旅行代理店の新規顧客管理システム
+----------
+### 旅行代理店の新規顧客管理システム (L社)
 
-期間: 2019年4月 - 2020年7月(業務委託)
+期間: 2019年4月 - 2019年7月(業務委託)
 
 "旅行代理店の新規顧客管理システムの立ち上げに従事。システムのマイクロサービス化に貢献。ログ集積基盤の構築と、サービスのコンテナ化を中心的に担当した。
 
@@ -413,7 +475,8 @@ PHP7、Laravel、MySQL、Redisを利用したAPI開発環境をDockerで構築�
 ・ログ集積基盤
 APIへのアクセスログをkinesisに集積し、s3、Elasticsearch、slackへと送信するログ収集基盤を設計、構築した。集積したログはathena検索対応し、収集基盤は速度、並列化に対応するためgolangで構築した。また、アラート状況の視覚化や、基盤自体はcloudformationで自動で構築できるように対応した。"
 
-### モビリティ事業
+----------
+### mobility事業 (R社)
 
 期間: 2018年12月 - 2019年3月(業務委託)
 
@@ -426,3 +489,4 @@ APIへのアクセスログをkinesisに集積し、s3、Elasticsearch、slack�
 - ansibleでLDAP設定を一律管理する仕組みを提供。CodeCommit/CodeBuild/CodeDeploy/を経由するCodePipelineを構築。基本環境、ビッグデータ環境はCloudformationで作成し、再現性、リソース/使用時間管理に役立てた。
 
 - ビッグデータ分析基盤AWS IoTの情報をkinesis Data Streamsを経由、またはS3に一時的に格納し、EMR(pyspark)を用いてs3、RedShift、Redshift Spectrumに処理データを格納する基盤を構築した。pysparkの処理にあたって一部実処理部分のコーディングも担当した。
+
