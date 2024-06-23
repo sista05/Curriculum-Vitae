@@ -53,8 +53,8 @@
     </thead>
     <tbody>
         <tr>
-            <td align="left"><img src="img/Twitter.png" width="16"> Twitter</td>
-            <td align="left"> <a href="https://twitter.com/sista05"> Twitter</td>
+            <td align="left"><img src="img/x.png" width="16"> X(旧twitter)</td>
+            <td align="left"> <a href="https://twitter.com/sista05"> https://twitter.com/sista05</td>
         </tr>
         <tr>
             <td align="left"><img src="img/LinkedIn.png" width="16"> LinkedIn</td>
@@ -101,9 +101,10 @@
 - [スキル](#スキル)
 - [活動期間](#活動期間)
 - [継続中の開発案件](#継続中の開発案件)
+  - [大手自動車製造会社のナレッジマネジメントシステム構築 (H社)](#大手自動車製造会社のナレッジマネジメントシステム構築-H社)
+- [過去の開発案件](#過去の開発案件)
   - [中小企業向けビジネスチャットアプリ (Chatwork株式会社 様)](#中小企業向けビジネスチャットアプリ-Chatwork株式会社-様)
   - [大手ネット印刷・広告・運送企業 (ラクスル株式会社 様)](#大手ネット印刷広告運送企業-ラクスル株式会社-様)
-- [過去の開発案件](#過去の開発案件)
   - [大手家電量販店の会員情報移行・DX推進 (U社)](#大手家電量販店の会員情報移行DX推進-U社)
   - [ECサイトのCRM環境(Salesforce CDP・MC)構築 (U社)](#ecサイトのcrm環境salesforce-cdpmc構築-U社)
   - [顧客獲得プロセス可視化サイト構築、広告戦略・分析 (C社)](#顧客獲得プロセス可視化サイト構築広告戦略分析-C社)
@@ -203,14 +204,16 @@
 gantt
     title 活動期間
     todayMarker off
+    section H社
+        RAG :2024-06-01, 60d
+
     section Chatwork
-        Dagster導入  :2023-09-01, 300d
+        Dagster導入  :2023-09-01, 270d
 
     section raksul
         Dagster導入 : 2022-09-01, 300d
-        データ利活用効率化推進 : 2023-07-01, 330d
-        データモデリング対応等 : 2023-07-01, 330d
-
+        データ利活用効率化推進 : 2023-07-01, 300d
+        データモデリング対応等 : 2023-07-01, 300d
     section U社
         家電量販店 : 2022-10-01, 210d
         ECサイトCRM環境構築 : 2022-03-01, 270d
@@ -220,7 +223,7 @@ gantt
 
     section S社
         データ移行 :2021-07-01, 150d
-        
+
     section L社
         リーガルテック企業の分析基盤構築 :2020-04-01, 460d
 
@@ -236,6 +239,15 @@ gantt
 ```
 
 ## 継続中の開発案件
+
+### 大手自動車製造会社のナレッジマネジメントシステム構築 (H社)
+
+期間: 2024年6月 - 継続中(業務委託)
+
+RAGを用いた社内情報検索システム構築のPocフェーズに参画中。
+OCRでドキュメントの文字抽出、ドキュメントデータ構造の整備、プロンプトエンジニアリング、などMLエンジニアの支援を担当。
+
+## 過去の開発案件
 
 ### 中小企業向けビジネスチャットアプリ (Chatwork株式会社 様)
 
@@ -279,8 +291,6 @@ EC情報や人事情報などのデータテーブルを整理し、データモ
 - dbtのベストプラクティスに沿ったstaging/intermediate/martに分け、dbt evaluatorなどベストプラクティスを適用しテーブル構造を整理した
 - 品質向上施策として、pk/fkテスト、sqlfluffの自動化、elementary、Data Catalogやdbt docsなどへのメタデータ反映など対応した
 - ポリシータグを導入して、グループ、部署間での列レベルのアクセス制御を適用した
-
-## 過去の開発案件
 
 ### 大手家電量販店の会員情報移行・DX推進 (U社)
 
