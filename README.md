@@ -236,7 +236,6 @@ gantt
     section R社 
         mobility : 2018-12-01, 90d
 
-
 ```
 
 ## 継続中の開発案件
@@ -292,7 +291,6 @@ EC情報や人事情報などのデータテーブルを整理し、データモ
 - dbtのベストプラクティスに沿ったstaging/intermediate/martに分け、dbt evaluatorなどベストプラクティスを適用しテーブル構造を整理した
 - 品質向上施策として、pk/fkテスト、sqlfluffの自動化、elementary、Data Catalogやdbt docsなどへのメタデータ反映など対応した
 - ポリシータグを導入して、グループ、部署間での列レベルのアクセス制御を適用した
-
 
 ### 大手家電量販店の会員情報移行・DX推進 (U社)
 
