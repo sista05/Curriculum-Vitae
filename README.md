@@ -1,5 +1,8 @@
 # 職務経歴書（スキルシート）
 
+こちらの経歴書は古いものです。<br>
+[Akira Iwasaki CV](https://profile.datamarket.co.jp) に移行中。
+
 ## 基本情報
 
 <table class="main_table">
